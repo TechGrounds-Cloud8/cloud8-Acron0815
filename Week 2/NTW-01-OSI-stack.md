@@ -1,11 +1,26 @@
-# [OSI Stack]
-[Give a short summary of the subject matter.]
+OSI Stack
+
+After making this assignment, I want to have gained more insight into the operation and meaning of the OSI and TCP/IP Model.
+
+Exercise
+
+- Find out what OSI model is and what it's used for.
+
+- Find out what the TCP/IP model is and what it's used for
+
+
+Key terminology
+
+The OSI model allows us to talk to each other about what's happening where in a network.
+
 
 OSI Model 
 
-The Open Systems Interconnection Model (OSI model for short) was designed by the International Organization for Standardization (ISO) as a reference model for open communication between different technical systems. 
+The OSI model (Open Systems Interconnection Model) was designed by the International Organization for Standardization (ISO) as a reference model for open communication between different technical systems.
 
-The OSI model characterizes computing functions into a universal set of rules and requirements in order to support interoperability between different products and software. When you compare it to a TCP/IP model, is has more indepth layers, which makes it more useful for troubleshooting. OSI model catergorizes the communications between systems into 7 different layers: 
+The OSI Model is a conceptual framework used to describe the functions of a networking system. The OSI model characterizes computing functions into a universal set of rules and requirements in order to support interoperability between different products and software.
+
+ When you compare the OSI model to a TCP/IP model, is has more indepth layers, which makes it more useful for troubleshooting. OSI model catergorizes the communications between systems into 7 different layers: 
 
  
 
@@ -52,7 +67,7 @@ Key terminology
 
 - Multiplexing = Process where multiple different signals are combined into a single signal 
 
-- Standardize = 
+
 
 Exercise 
 
@@ -62,32 +77,33 @@ Exercise
 
 Sources 
 
-Wat-is-het-osi-model 
+[OSI](https://www.forcepoint.com/cyber-edu/osi-model#:~:text=The%20OSI%20Model%20(Open%20Systems,between%20different%20products%20and%20software.))
 
- OSI youtube video 
+[Wat-is-het-osi-model](https://www.strato.nl/server/wat-is-het-osi-model/)
 
- Was-ist-das-osi-modell 
+[OSI youtube video](https://www.youtube.com/watch?v=_kDogzR0-4Q)
 
- OSI 
+[Multiplexing](https://www.techtarget.com/searchnetworking/definition/multiplexing)
 
- Interoperabilty 
+[TCP/IP](https://www.avg.com/en/signal/what-is-tcp-ip#:~:text=There%20are%20four%20layers%20of,when%20the%20data%20is%20received.)
 
- Multiplexing 
+[Transmission Control Protocol/Internet Protocol](https://www.pcmag.com/encyclopedia/term/tcpip)
 
- TCP/IP 
 
- OSI - TCP/IP The Difference between this models 
+[OSI - TCP/IP The Difference between this models](https://www.guru99.com/difference-tcp-ip-vs-osi-model.html#:~:text=OSI%20refers%20to%20Open%20Systems,both%20connection%2Doriented%20and%20connectionless.)
+
+
 
 
 Results 
 
-ISO is useful to standardize hardware(Router, switch, motherboard), whereas using TCP/IP is more helpful when establashing a connection between 2 different types of 
+ISO is useful to standardize hardware (Router, Switch, Motherboard, etc...) whereas using TCP/IP is more helpful when establashing a connection between 2 different types of 
 systems.  
-
-
 
 ![Screenshot](../00_includes/7-Layers-of-OSI.PNG)
 
 ![Screenshot](../00_includes/Key-Difference.PNG)
 
 ![Screenshot](../00_includes/TCP-IP-Model-vs-OSIModel.PNG)
+
+
