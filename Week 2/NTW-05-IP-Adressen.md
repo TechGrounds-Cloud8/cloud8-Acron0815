@@ -16,35 +16,38 @@ An IP address is used for two purposes:
 - Identifying host/network interface
 
 
-### Wat betekent IP?  
-Het is niets meer dan 'Internet Protocol', en het IP-adres als zodanig is niets meer dan een identificatie. We hebben het over een nummer dat in het netwerk is toegewezen en dat in feite dient om aangesloten apparaten te identificeren. Toch moet je weten dat er twee verschillende soorten IP-adressen zijn: het ip-adres openbaar en privé ip-adres. En nee, hoewel het misschien lijkt dat ze dat zijn, zijn ze niet hetzelfde, maar ook dat beide adressen een totaal andere functie vervullen dan elk ander IP-adres.
+### What does IP mean?  
+It is nothing more than 'Internet Protocol', and the IP address as such is nothing more than an identifier. We are talking about a number assigned in the network, which basically serves to identify connected devices. Still, you should know that there are two different types of IP addresses: the public ip address and private ip address. And no, although it may seem that they are, they are not the same, but also that both addresses perform a completely different function than any other IP address.
 
-### Privé IP-adres
-We gaan nu voor het privé-IP-adres dat in feite het adres is dat aan een apparaat is toegewezen, zoals de naam al doet vermoeden, privé. Wat betekent dit? Wat Het is in feite degene die is toegewezen binnen een privénetwerk aan de zijkant van de toegangsdeur dat, als algemene regel, een apparaat zal zijn dat een beetje meer kan klinken voor jou, de router, waar u het goed zult vinden. Als we niet willen dat er een conflict ontstaat in de interne relaties die bestaan ​​tussen elke slimme mobiele telefoon of smartphone, de gameconsoles in uw huis, of dezelfde tv en andere apparaten die u hebt aangesloten, moet u een andere en corresponderend privé IP-adres met een rangorde volgens klasse.
-Er zijn drie soorten klassen:
+### Private IP address
+We will now go for the private IP address which is basically the one assigned to a device, as the name suggests, private. What does this mean? What It is in fact the one assigned within a private network on the side of the entrance door that, as a general rule, will be a device that can sound a little more to you, the router, where you will be fine. If we don't want a conflict to arise in the internal relationships that exist between every smart mobile phone or smartphone, the game consoles in your home, or the same TV and other devices you have connected, you must have a different and corresponding private IP -address ranked by class.
+There are three types of classes:
 
-- Klasse a: 10.0.0.0 tot 10.255.255.255.
-- Klasse B: 172.16.0.0 tot 172.31.255.255.
-- Klasse c: 192.168.0.0 tot 192.168.255.255.
+- Class a: 10.0.0.0 to 10.255.255.255.
+- Class B: 172.16.0.0 to 172.31.255.255.
+- Class c: 192.168.0.0 to 192.168.255.255.
 
-Wat de verschillende klassen van privé-IP-adressen doen, is in feite het mogelijke bereik bepalen dat u kunt toewijzen aan de apparaten die op uw netwerk zijn aangesloten. Meer specifiek wordt klasse A gebruikt voor grote internationale bedrijven, terwijl privé-IP-adressen die binnen klasse B vallen, worden gebruikt voor middelgrote bedrijven en degene die in klasse C blijven, degene zijn die we vaker zullen aantreffen voor thuisnetwerken (zoals uw huis)  en vooral in kleine netwerken vanwege het aantal apparaten dat erop is aangesloten.
+Basically, what the different classes of private IP addresses do is determine the possible ranges you can assign to the devices connected to your network. More specifically, class A is used for large international companies, while private IP addresses that fall within class B are used for medium-sized companies and the ones that stay in class C are the ones we will find more often for home networks (like your home) and especially in small networks due to the number of devices connected to them.
 
-Hiermee weten we dat het gebruikelijk is dat in elk huis van een gewone gebruiker het IP-adres 192.168.1.1 standaard is geconfigureerd voor uw router, en dat de privé-IP-adressen zoals 192.168.1.x It wordt gebruikt voor de rest van de apparaten die zijn aangesloten op het lokale netwerk.
+With this we know that it is common that in every home of a regular user the IP address 192.168.1.1 is configured by default for your router, and the private IP addresses such as 192.168.1.x It is used for the rest of the devices connected to the local network.
 
-### Openbaar IP-adres
 
-Degene die we kennen van het openbare IP-adres is, in feite, degene die de internetserviceprovider (wat wij als telefoniste kennen, elk merk werkt hier voor ons) een klant toewijzen (U kunt de klant zijn). Dit alles helpt ons om apparaten of complete netwerken in het netwerk te identificeren en die in het algemeen de naam dynamisch ip hebben.
+### Public IP address
 
-De apparaten die clients worden genoemd, zowel computers als mobiele telefoons of smartphones en vele andere die worden gebruikt om op internet te surfen, worden voortdurend op het netwerk geïdentificeerd met een openbaar IP-adres dat voor iedereen zichtbaar is. Naast dit laatste worden ook het statische openbare IP-adres, de servers waarop de pagina's worden gehost en verschillende webservices die we gewend zijn te huren op deze manier geïdentificeerd.
+The one we know from the public IP address is, in fact, the one that the internet service provider (what we know as operator, any brand works for us here) assign a customer (You can be the customer). All this helps us to identify devices or entire networks in the network and which are generally named dynamic ip.
 
-In het laatste geval, van webservers, moeten we zeggen dat er een afhankelijkheid is van de DNS-servers. Omdat de gebruiker in feite een URL-adres in de webbrowser schrijft om de belasting van een webpagina te krijgen (wat we allemaal weten te doen), start de webserver daarna een query naar de DNS-servers die deze ontvangen om deze te verwerken en tenslotte Ze lossen de naam op van wat we weten per domein (adres dat u typt) door het bijbehorende IP-adres te vinden en vervolgens wordt de webpagina die u wilde invoeren op uw scherm geladen om alle webinhoud te bekijken.
+The devices called clients, both computers and mobile phones or smartphones and many others that are used to surf the Internet, are constantly identified on the network with a public IP address that is visible to all. In addition to the latter, the static public IP address, the servers on which the pages are hosted and various web services that we are used to rent are also identified in this way.
 
-Dit openbare IP-adres kent u in de regel niet, maar wordt achter geregistreerd door de DNS-servers dat zijn degenen die het hele proces activeren en ervoor zorgen dat het ene punt samenkomt met het andere zodat u de webinhoud kunt ontvangen.
+In the latter case, of web servers, we have to say that there is a dependency on the DNS servers. Since the user basically writes a URL address in the web browser to get the load of a web page (which we all know how to do), the web server then starts a query to the DNS servers that receive it to process it and finally They solve the name of what we know by domain (address you type) by finding its IP address and then the web page you wanted to enter will be loaded on your screen to see all web content.
+
+You usually don't know this public IP address, but it is registered behind by the DNS servers that are the ones that activate the whole process and make sure that one point converges with the other so that you can receive the web content.
+
 
 
 ### Exercise
 
-Ontdek wat je publieke IP adres is van je laptop en mobiel
+Find out what your public IP address is of your laptop and mobile
+
 
 ![Wifi-IP-adres](../00_includes/Screenshot-GSM-Wifi.jpg)
 
@@ -63,8 +66,7 @@ You can connect multiple devices to the internet at home via your (Wi-Fi) router
 
 The IP address that your phone actually has is an internal IP address. This means that the IP address is only visible within your own network. These internal IP addresses are assigned by your (Wi-Fi) router. But from the outside (i.e. from the internet) that internal IP address cannot be seen, but only the external IP address.
 
-### Verander het privé IP adres van je mobiel naar dat van je laptop. Wat gebeurt er dan?
-
+### Change the private IP address of your mobile to that of your laptop. What happens then?
 
 Keep in mind, changing your IP address will temporarily disrupt whatever internet-connected services or programs you're using on your device. There's no harm done, but it's going to have the same effect as if you'd momentarily lost your Wi-Fi.
 
