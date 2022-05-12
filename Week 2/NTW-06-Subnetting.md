@@ -60,7 +60,7 @@ So we need to add two bits from the host part to the network part. In our exampl
 - 1 public subnet with an internet gateway. This subnet must be able to place at least 5 hosts (the 5 hosts is excluding the internet gateway).
 
 
-![Diagram-Netwerkarchitectuur](../00_includes/Diagram.PNG)
+![Diagram-Netwerkarchitectuur](../00_includes/1.Diagram.PNG)
 
 
 ### Sources
