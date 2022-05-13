@@ -60,7 +60,7 @@ A security system designed to prevent unauthorized access to or from a private n
 ![Check the Firewall](../00_includes/4.Firewall%20Closed.PNG)
 
 
-![Check the Firewall](../00_includes/4.Firewall Closed.PNG)
+
 
 
 
