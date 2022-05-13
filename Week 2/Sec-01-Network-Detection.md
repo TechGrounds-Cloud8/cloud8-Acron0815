@@ -38,10 +38,4 @@ Quickly check if my website is up.
 ### Sources
 [How to use the NMAP Security Scanner on Linux](https://www.howtoforge.com/tutorial/nmap-on-linux/#on-ubuntu)
 
-### Overcome challanges
-[Give a short description of your challanges you encountered, and how you solved them.]
-
-### Results
-[Describe here the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
-
 
