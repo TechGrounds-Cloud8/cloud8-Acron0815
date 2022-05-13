@@ -25,7 +25,7 @@ CIDR-Classless Inter-Domain Routing
 
 Classless Inter-Domain Routing (CIDR), sometimes also called supernetting, is a method that allows Internet addresses in inter-domain routing to be assigned and specified much more flexibly than the Internet Protocol (IP) actually allows. With the help of CIDR, the number of available addresses can be significantly increased. CIDR is currently used as a routing system by almost all gateway hosts in the backbone network of the Internet. Internet regulators assume that almost all Internet service providers will use CIDR for routing tasks in the future.
 
-![CIDR-Chart](../00_includes/IPv4-CIDR-Chart)
+![CIDR-Chart](https://github.com/TechGrounds-Cloud8/cloud8-Acron0815/blob/main/00_includes/IPv4-CIDR-Chart.PNG)
 
 ### Why is subnetting so important?
 
@@ -60,7 +60,7 @@ So we need to add two bits from the host part to the network part. In our exampl
 - 1 public subnet with an internet gateway. This subnet must be able to place at least 5 hosts (the 5 hosts is excluding the internet gateway).
 
 
-![Diagram-Netwerkarchitectuur](../00_includes/1.Diagram.PNG)
+![Diagram-Netwerkarchitectuur](https://github.com/TechGrounds-Cloud8/cloud8-Acron0815/blob/main/00_includes/Diagram.png)
 
 
 ### Sources
