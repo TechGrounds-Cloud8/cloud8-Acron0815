@@ -1,0 +1,44 @@
+# Symmetric encryption
+
+
+## Caesar cipher. 
+
+This cipher is attributed to Julius Caesar, who is said to have used it to communicate securely with his generals. 
+It is a simple substitution cipher where each letter in the plaintext is shifted a specific number of places down the alphabet. 
+The shift number said to be used by Caesar was three. 
+Substitution ciphers are often implemented by writing down the plaintext alphabet, with the ciphertext alphabet written above 
+the plaintext letters, shifted by the number those communicating agree to. 
+A shift of three puts the letter D above the plaintext A, E above B and so on. 
+The number of characters shifted is considered a simple form of a key.
+
+
+### 1. Find two more historic ciphers besides the Caesar cipher. 
+
+- Simple substitution
+
+This one has also been used for hundreds of years. It substitutes every plaintext character for a different ciphertext character, 
+resulting in what is effectively a 26-character key. 
+It differs from the Caesar cipher because the enciphering alphabet is completely jumbled, rather than simply shifted a 
+uniform number of places.
+
+-  The Scytale
+
+This device consisted of a tapered baton around which was spirally wrapped a piece of parchment inscribed with the message. 
+When unwrapped the parchment bore an incomprehensible set of letters, but when wrapped around another baton of identical 
+proportions, the original text reappeared.
+
+-  Cipher Disks
+
+These devices consisted of two rotating concentric circles, both bearing a sequence of 26 letters. 
+One disk was used to select plaintext letters, while the other was used for the corresponding cipher component.
+
+
+### 2. Find two digital ciphers that are being used today.
+
+Commonly used Cipher Suites:
+
+- AES with 128 or 256 Bit
+
+- SHA-2 (SHA-256, SHA384 or SHA-512)
+
+
