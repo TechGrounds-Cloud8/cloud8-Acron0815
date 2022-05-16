@@ -1,7 +1,11 @@
 # Identity and Access Management
 
+![Retina Scan](../00_includes/SEC-03%20IAM/Fun.PNG)
+
 
 ## 1.	The difference between authentication and authorization.
+
+![Authen. en Author.](../00_includes/SEC-03%20IAM/Authentication-and-Authorization.PNG)
 
 
 Authentication and Authorization,
@@ -63,6 +67,8 @@ Otherwise, an anonymous Cloud Gorilla “except for me 😉”) , who got his pa
 
 ## 2.	The three factors of authentication and how MFA improves security.
 
+![MFA](../00_includes/SEC-03%20IAM/Multi-factor-authentication-(MFA).PNG)
+
 What is MFA?
 
 Multi-factor authentication (MFA) is a security mechanism that authenticates individuals through more than one required security and validation process. Because authentication with only a user name and password is insecure and susceptible to hacker attacks.
@@ -109,6 +115,8 @@ MFA adds layers of security by requiring users to provide multiple forms of iden
 
 
 ## 3.	What the principle of least privilege is and how it improves security.
+
+![PoLP](../00_includes/SEC-03%20IAM/The-Principle-of-Least-Privilege-(PoLP).PNG)
 
 What is the Principle of Least Privilege?
 The Principle of Least Privilege (PoLP) is an IT security concept in which user access rights are restricted to a minimum. In fact, the user can only access the applications and resources that are essential to his work and for which he IS called upon.
