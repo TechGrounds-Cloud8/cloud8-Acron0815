@@ -45,3 +45,10 @@ ev8FQlUWqaTgcEq9NLIHJN6lQjecJQx5e/mnclGsN1yUAHUB59sNyKT8wG45TR/RF3UZeiIk02jPtBcQ
 ### Public Key:
 
 MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgVtqvXAHSQTezyV6rNef/Fp81iLq5qoqbHkG9yIoQRqL8dQxBDnTe86m8eW6MFJQFZaSlLa/cOYUMm4xbL1eM3pOOOC/aMAvrDR+bjCTLgufO+eEbmlS+LRHRwbh+sjlCLjFjD5YGT9cpI/gLx3vUKildZjwcOCAlO5uvtYeZawIDAQAB
+
+
+## What is difference between asymmetric and symmetric encryption and which is better?
+
+Asymmetric encryption is the more secure one, while symmetric encryption is faster. 
+They're both very effective in different ways and, depending on the task at hand, either or both may be deployed alone or together. 
+Only one key (symmetric key) is used, and the same key is used to encrypt and decrypt the message.
