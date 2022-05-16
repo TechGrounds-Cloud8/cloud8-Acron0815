@@ -126,3 +126,12 @@ How does the Principle of Least Privilege (PoLP)  improve Security?
 The key benefit of the least privilege approach to security is that it minimizes the level of compromise in the event of a security breech. This means : The users who have permissions go on reducing.
 Least privilege reduces the number of overprivileged users. Restricting the administrative right to only a few privileged user accounts instead of all end users minimizes the overall occurrence of privileged operations and therefore reduces the likelihood of high-risk errors.
 For example, a user account created to retrieve records from a database does not require administrative privileges, while a programmer whose primary function is to update lines of legacy code does not require access to financial records.
+
+
+## Sources
+
+[What is Identity and Access Management (IAM)?](https://www.onelogin.com/learn/iam)
+
+[Identity and Access Management (IAM)](https://www.ictportal.nl/ict-lexicon/identity-access-management-iam)
+
+[YouTube Video: Identity and Access Management for Beginners](https://www.youtube.com/watch?v=fcSXiUsU5lE)
