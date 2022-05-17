@@ -52,3 +52,8 @@ MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgVtqvXAHSQTezyV6rNef/Fp81iLq5qoqbHkG9yIoQ
 Asymmetric encryption is the more secure one, while symmetric encryption is faster. 
 They're both very effective in different ways and, depending on the task at hand, either or both may be deployed alone or together. 
 Only one key (symmetric key) is used, and the same key is used to encrypt and decrypt the message.
+
+
+## Overcome challanges
+
+I was trying to learn how asymmetric encryption works and trying to understand how to generate keys using a key pair generator.
