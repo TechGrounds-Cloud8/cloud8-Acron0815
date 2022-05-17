@@ -1,9 +1,13 @@
 # Public Key Infrastructure
 
+## What is PKI and how does it protect your online infrastructure?
+
 
 A Public Key Infrastructure (PKI) is a system that makes it possible to generate, distribute and check digital certificates. These certificates serve as a digital identity for people and machines and are used to secure computer-aided communication.
 
 The underlying idea is as follows: With the help of an asymmetric cryptosystem, messages on the Internet can be signed and encrypted. Signing guarantees that the message in this form really came from the specified sender. However, you need the public key of the sender for this. This could z. B. be sent by e-mail. At this point, however, the question arises of how to ensure that it is actually the sender's key and not a forgery by a fraudster. For this purpose, the key to be sent can itself be signed with a trustworthy key. In this way, a hierarchy of trustworthy institutions can be established. However, one must be able to rely on the authenticity of the keys of the highest institutions in this hierarchy.
+
+![PKI](../00_includes/SEC-06%20Public%20Key%20Infrastructure/PKI.PNG)
 
 
 ### Essential components of a PKI are:
@@ -25,6 +29,7 @@ The underlying idea is as follows: With the help of an asymmetric cryptosystem, 
 -CPS (Certificate Practice Statement): The specific implementation of the requirements in the PKI is described here. This document describes the implementation of the CP.
 
 -PDS (Policy Disclosure Statement): This document is an excerpt from the CPS if the CPS is not to be published.
+
 
 
 ## Key Terminology
@@ -75,4 +80,69 @@ With client authentication, the client presents its certificate to the server be
 If someone sends you a document, you cannot be sure whether the document is genuine and whether it was written by the person who claims it. By signing documents, i.e. electronically signing them, as is possible in MS Word or Adobe Acrobat, for example, you can ensure authenticity and integrity.
 
 - ### Code Signing
-A code signing certificate allows you to sign your software. This is particularly useful for ActiveX components that are to be distributed over the web. With signed software components, the user can be sure who created the software and whether the software was modified.
+A code signing certificate allows you to sign your software. This is particularly useful for ActiveX components that are to be distributed over the web. With signed software components, the user can be sure who created the software and whether the software was 
+modified.
+
+## Exercise
+
+- Create a self-signed certificate on your VM.
+
+- Analyze some certification paths of known websites (techgrounds.nl / google.com / ing.nl).
+
+- Find the list of trusted certificate roots on your system (bonus points if you also find it in your VM).
+
+
+## 1. Create a self-signed certificate on your VM.
+
+![Self-Signed certificate](../00_includes/SEC-06%20Public%20Key%20Infrastructure/Create-Certificate-OnMyVM.PNG)
+
+## 2. Analyze certification paths of websites (techgrounds.nl / google.com / ing.nl).\
+
+![Certification paths of techgrounds](../00_includes/SEC-06%20Public%20Key%20Infrastructure/Certification-Path-Techgrounds.nl.PNG)
+
+
+![Certification paths of Google](../00_includes/SEC-06%20Public%20Key%20Infrastructure/Certification-Path-Google.com.PNG)
+
+![Certification paths of ING](../00_includes/SEC-06%20Public%20Key%20Infrastructure/Certification-Path-ING.nl.PNG)
+
+
+## 3. Find the list of trusted certificate roots on your system (bonus points if you also find it in your VM).
+
+![Certificate roots on my system](../00_includes/SEC-06%20Public%20Key%20Infrastructure/List-of-trusted-Certificate.PNG)
+
+
+
+
+## Sources
+
+[YouTube Video - What is Public Key Infrastructure (PKI)](https://www.youtube.com/watch?v=i-rtxrEz_E8)
+
+[What is Public Key Infrastructure (PKI)?](https://www.appviewx.com/education-center/pki/)
+
+[How to Create Self Signed Certificates on Ubuntu Linux](https://websiteforstudents.com/how-to-create-self-signed-certificates-on-ubuntu-linux/)
+
+[How to Create Self-Signed Certificates using OpenSSL](https://devopscube.com/create-self-signed-certificates-openssl/)
+
+[PKI Documentation](https://8gwifi.org/docs/pki.jsp)
+
+[Generate CA Authority](https://8gwifi.org/cafunctions.jsp)
+
+[CSR, private key validation](https://8gwifi.org/certsverify.jsp)
+
+[PKI-Workshop, Teil 1: Grundlagen der Public-Key-Infrastruktur](https://www.linux-magazin.de/ausgaben/2021/02/pki-teil-1/)
+
+
+
+## Overcome challanges
+
+### 1. - I learn about PKI (Public Key Infrastructure).
+
+### 2. - I create a self-signed certificate on my VM.
+
+### 3. - I analyze certification paths of some websites.
+
+### 4. - I find the list of trusted certificate roots on my Computer system.
+
+
+#   5. -- I missed the 100 bonus points!
+
