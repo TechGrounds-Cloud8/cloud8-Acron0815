@@ -3,20 +3,20 @@
 
 ## Key terminology
 
-- Hashing: 
+- ### Hashing: 
 
 Hasing is the process of converting a input of any given length into a fixed size string of text using a mathemetical function.
 
 
-- Rainbow Table:
+- ### Rainbow Table:
 
  A rainbow table is a precomputed compilation of plaintexts and matching ciphertexts (typically passwords and their matching hashes). Rainbow tables greatly speed up many types of password cracking attacks, often taking minutes to crack where other methods (such as dictionary, hybrid, and brute-force password cracking attempts) may take much longer.
 
- - Password manager: 
+ - ### Password manager: 
  
  A password manager is a program that helps you manage, remember and improve all your passwords. With a password manager you often only have to remember one password: that of the password manager. The average internet user has dozens of online accounts on all kinds of different websites. For all these accounts you need a username and password. To keep your accounts safe, each account must have a unique and strong password. That is why it is useful to use a password manager. This will help you create and remember all your unique strong passwords.
 
-- Salting:
+- ### Salting:
 
 In 'salting', random data is added to a hash function. As if it gets 'salted', hence the term. The result of the encryption of this combination is saved.
 
