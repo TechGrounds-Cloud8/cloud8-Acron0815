@@ -47,6 +47,16 @@ ev8FQlUWqaTgcEq9NLIHJN6lQjecJQx5e/mnclGsN1yUAHUB59sNyKT8wG45TR/RF3UZeiIk02jPtBcQ
 MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgVtqvXAHSQTezyV6rNef/Fp81iLq5qoqbHkG9yIoQRqL8dQxBDnTe86m8eW6MFJQFZaSlLa/cOYUMm4xbL1eM3pOOOC/aMAvrDR+bjCTLgufO+eEbmlS+LRHRwbh+sjlCLjFjD5YGT9cpI/gLx3vUKildZjwcOCAlO5uvtYeZawIDAQAB
 
 
+
+## What is the Diffie–Hellman (DH) Algorithm?
+
+The Diffie–Hellman (DH) Algorithm is a key-exchange protocol that enables two parties communicating over public channel to establish a mutual secret without it being transmitted over the Internet. DH enables the two to use a public key to encrypt and decrypt their conversation or data using symmetric cryptography.
+
+## What is the purpose of a key exchange algorithm?
+
+The key exchange problem describes ways to exchange whatever keys or other information are needed for establishing a secure communication channel so that no one else can obtain a copy.
+
+
 ## What is difference between asymmetric and symmetric encryption and which is better?
 
 Asymmetric encryption is the more secure one, while symmetric encryption is faster. 
