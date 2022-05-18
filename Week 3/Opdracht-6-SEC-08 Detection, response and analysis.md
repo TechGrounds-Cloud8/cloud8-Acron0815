@@ -30,7 +30,8 @@ In this phase you detecting a attempted attack. Detecting an (attempted) attack 
 Cyber ​​criminals try to smuggle malware onto a system as unnoticed as possible. If you suspect that something is wrong - e.g. e-mails are being sent in your name - first scan your device with an up-to-date virus protection program. In any case, you should subject your system to a thorough check.
 
 - ### Response
-
+If an incident is detected, a quick and effective response must be taken.
+The first thing to do in response to a detected attack is trying to contain the damage.The way you do this (depending on the kind of attack) might differ. After the attack is contained, you can try to figure out the root cause of the attack, so that you can stop it.
 
 
 ## Exercise 1
