@@ -83,6 +83,12 @@ Since all values ​​are already calculated, this simplifies to a simple looku
 
 ### 4-Create a new user in Linux with the password 12345. Look up the hash in a Rainbow Table.
 
+![Create a new user in Linux](../00_includes/SEC-07%20Passwords/Create-a-new-user-in-Linux.PNG)
+
+GorillaAcron Hash:
+
+
+![Look up the hash](../00_includes/SEC-07%20Passwords/Look-up-the-hash.PNG)
 
 
 ### 5-Despite the bad password, and the fact that Linux uses common hashing algorithms, you won’t get a match in the Rainbow Table. This is because the password is salted. To understand how salting works, find a peer who has the same password in /etc/shadow, and compare hashes.
@@ -98,6 +104,8 @@ Since all values ​​are already calculated, this simplifies to a simple looku
 [Hashing](https://www.techopedia.com/definition/14316/hashing-cybersecurity)
 
 [What is Hashing? Hash Functions Explained Simply](https://www.youtube.com/watch?v=2BldESGZKB8)
+
+[Password Hashing, Salts, Peppers | Explained!](https://www.youtube.com/watch?v=--tnZMuoK3E)
 
 [? Password-manager](https://www.zoho.com/vault/educational-content/what-is-a-password-manager.html#:~:text=A%20password%20manager%20is%20an,encrypted%20with%20one%20master%20password.)
 
