@@ -11,7 +11,7 @@
 
 - 3.- Response
 
-- 4.- Analysis phase
+- 4.- Analysis 
 
 - 5.- IDS - Intrusion Detection Systems
 
@@ -63,7 +63,8 @@ A Recovery Time Objective (RTO) often refers to the quantity of time that an app
 A Company makes daily backups of their database. The database is automatically recovered when a failure happens using the most recent available backup. The recovery happens on a different physical machine than the original database, and the entire process takes about 15 minutes. What is the RPO of the database?
 
 - The company creates daily backups (they back up every 24 hours).
-The RPO is 24 hours, in the worst case the company lost 24 hours of data.
+
+  The RPO is 24 hours, in the worst case the company lost 24 hours of data.
 
 ## Exercise 2
 
