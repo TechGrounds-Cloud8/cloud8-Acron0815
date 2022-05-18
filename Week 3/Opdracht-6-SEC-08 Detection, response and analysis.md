@@ -37,7 +37,7 @@ Cyber ​​criminals try to smuggle malware onto a system as unnoticed as possi
 If an incident is detected, a quick and effective response must be taken.
 The first thing to do in response to a detected attack is trying to contain the damage.The way you do this (depending on the kind of attack) might differ. After the attack is contained, you can try to figure out the root cause of the attack, so that you can stop it.
 
-- ###  4.-Analysis phase
+- ###  4.-Analysis
 In this phase you analyse what has happened and you document what you learned and do the necessary thing to prevent this from rehappening.
 
 - ### 5.-IDS - Intrusion Detection Systems
