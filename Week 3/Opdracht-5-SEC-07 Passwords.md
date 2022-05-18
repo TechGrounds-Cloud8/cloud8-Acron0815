@@ -119,3 +119,7 @@ Compare hashes (with Aurèl)
 [? Password-manager](https://www.zoho.com/vault/educational-content/what-is-a-password-manager.html#:~:text=A%20password%20manager%20is%20an,encrypted%20with%20one%20master%20password.)
 
 [Rainbow-table](https://www.sciencedirect.com/topics/computer-science/rainbow-table)
+
+
+
+![Top 20](../00_includes/SEC-07%20Passwords/Top-20-Passwords.PNG)
