@@ -93,6 +93,15 @@ GorillaAcron Hash:
 
 ### 5-Despite the bad password, and the fact that Linux uses common hashing algorithms, you won’t get a match in the Rainbow Table. This is because the password is salted. To understand how salting works, find a peer who has the same password in /etc/shadow, and compare hashes.
 
+My Peer's
+
+![My Peers](../00_includes/SEC-07%20Passwords/My-Peers.PNG)
+
+
+Compare hashes (with Aurèl)
+
+![Compare hashes](../00_includes/SEC-07%20Passwords/Compare-hashes.PNG)
+
 
 
 ## Sources
