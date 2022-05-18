@@ -38,8 +38,8 @@ The first thing to do in response to a detected attack is trying to contain the 
 
 A Company makes daily backups of their database. The database is automatically recovered when a failure happens using the most recent available backup. The recovery happens on a different physical machine than the original database, and the entire process takes about 15 minutes. What is the RPO of the database?
 
-- The Company makes daily backups (they backup every 24 hours)
-The RPO is 24 ours, in the worst-case they will lose 24 hours of data.
+- The company creates daily backups (they back up every 24 hours).
+The RPO is 24 hours, in the worst case the company lost 24 hours of data.
 
 ## Exercise 2
 
