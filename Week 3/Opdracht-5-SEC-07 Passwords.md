@@ -42,7 +42,7 @@ The passwords in a computer system are not stored directly as plain text, but ha
 
 -Hash function vs. encryption
 
-Unlike encryption, which can be reversed, hashing is a two-way street. The output of a hash function is a set of different characters with a fixed length - the hash value.
+Unlike encryption, which can be reversed (two-way street), hashing is a one-way street. The output of a hash function is a set of different characters with a fixed length - the hash value.
 
 Hash values ​​do not necessarily have to be kept secret, since they cannot be converted back to their original state. An important point here: Each data set that is subjected to a hash function produces a unique hash value. If two different inputs have the same hash value, there is a "collision". Depending on how complicated it is to track them down using arithmetic operations, a hash function can be classified as ineffective from a security perspective.
 
