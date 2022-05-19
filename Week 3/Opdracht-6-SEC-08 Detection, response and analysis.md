@@ -65,6 +65,8 @@ A Company makes daily backups of their database. The database is automatically r
 - The company creates daily backups (they back up every 24 hours).
 The RPO is 24 hours, in the worst case the company lost 24 hours of data.
 
+PS The outcome can also be 24 hours and 14 minutes,but i'm not sure! ;)
+
 ## Exercise 2
 
 An automatic failover to a backup web server has been configured for a website. Because the backup has to be powered on first and has to pull the newest version of the website from GitHub, the process takes about 8 minutes. What is the RTO of the website?
