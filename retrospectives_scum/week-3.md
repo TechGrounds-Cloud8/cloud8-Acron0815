@@ -1,4 +1,4 @@
-# [Group CloudGorillas] Retro of Week [3]
+# Team Cloud Gorillas Retrospective Week 3
 
 Scrum master: Give everybody 10 minutes to answer the questions stated below. Then allow them to write them down.
 
