@@ -41,9 +41,6 @@ An Availability Zone (AZ) is one or more discrete data centers with redundant po
 
 Availability Zones (AZs) are isolated environments within data center regions from which public cloud services are operated. Regions are geographic locations where cloud providers' data centers operate. Businesses choose one or more Availability Zones for their services around the world depending on their business needs.
 
-The choice of availability zones is based on various reasons, for example compliance requirements or proximity to end customers can play a role. Cloud administrators can also replicate services across multiple availability zones to reduce latency or protect resources. In the event of a service failure, resources can also be moved to another availability zone. Certain cloud services can also be restricted to specified regions or availability zones.
-
-Amazon divides the data centers of its AWS cloud (Amazon Web Services) into the regions of North, Central and South America, Europe/Middle East/Africa and Asia-Pacific. Each region in turn comprises several availability zones that are geographically separated from each other. Regions are connected to each other via the Internet. Each availability zone includes one or more data centers. In Germany, Amazon operates its own AWS data center in Frankfurt.
 
 ### Sources
 
@@ -59,16 +56,6 @@ For starters, it's enough to know that there are multiple AWS Regions on almost 
 AWS has the concept of a Region, which is a physical location around the world where we cluster data centers. We call each group of logical data centers an Availability Zone. Each AWS Region consists of multiple, isolated, and physically separate AZs within a geographic area. Unlike other cloud providers, who often define a region as a single data center, the multiple AZ design of every AWS Region offers advantages for customers. Each AZ has independent power, cooling, and physical security and is connected via redundant, ultra-low-latency networks. AWS customers focused on high availability can design their applications to run in multiple AZs to achieve even greater fault-tolerance. AWS infrastructure Regions meet the highest levels of security, compliance, and data protection.
 
 In Europe there are currently 4 regions Dublin, London, Frankfurt and Paris with a different number of availability zones. In Frankfurt there are three. Only in Africa, Greenland and Russia does AWS not have its own regions. All traffic within a region flows over AWS-owned networks.
-
-AWS provides a more extensive global footprint than any other cloud provider, and to support its global footprint and ensure customers are served across the world, AWS opens new Regions rapidly. AWS maintains multiple geographic Regions, including Regions in North America, South America, Europe, China, Asia Pacific, South Africa, and the Middle East.
-
-Even if you only want to book simple resources such as virtual machines or storage with Amazon Web Services, you should understand how this global cloud infrastructure is structured. Their structure and networking has a significant impact on data security, availability and performance.
-
-Replication within regions
-AWS uses the distributed infrastructure of data centers and AZs for internal replication and thus implements the guaranteed availability of services with built-in availability, for example for S3 or ELB (Elastic Load Balancing).
-
-AWS will never replicate resources out of a particular Region without the knowledge or consent of the customer, unless the customer explicitly does so, such as when copying a snapshot or AMI to another region.
-
 
 Service availability: Because AWS is gradually building up its global infrastructure, a new service is not immediately available in every region at all times.
 
@@ -117,23 +104,14 @@ AWS data centers anywhere in the world. To complicate your pricing further, each
 
 US-East is usually the cheapest
 
-If you take a look at this pricing chart from Concurrency Labs, it's clear that the two US-East regions, us-east-1 (N. Virginia) and us-east-2 (Ohio), are very cheap compared to the other.
+If you take a look at the AWS pricing chart, it's clear that the two US-East regions, us-east-1 (N. Virginia) and us-east-2 (Ohio), are very cheap compared to the other.
 
-
- us-west-2 (Oregon) is also very low, but the us-west-1 suffers from Silicon Valley pricing and is much more expensive. Mumbai (India) is also surprisingly quite cheap when compared to the rest of the world.
+us-west-2 (Oregon) is also very low, but the us-west-1 suffers from Silicon Valley pricing and is much more expensive. Mumbai (India) is also surprisingly quite cheap when compared to the rest of the world.
 
 
  As for all other regions, they are all more expensive than these four. European regions are typically around 10% more expensive, with Stockholm being the cheapest of them all—just 6% more expensive than the cheapest US regions. The Asian market is around 20-25% more expensive, with Seoul being the cheapest this side of the world only 10% more than the eastern US.
 
- 
-Data from CloudFront to North America and Europe is the cheapest and the same prices. For the rest of the world, it's a bit more expensive, with South America again topping the list. Anyway, with CloudFront, you're paying for that data as long as you have South American visitors, so there's not much you can do about it.
-
-For internal data transfer, most regions are the same. Search S3 prices, data from S3 to any range $0.02 per GB. However, if you transfer from us-east-1 to east-usa-2 or vice versa, the fee is only $0.01. This doesn't apply, however, if you're broadcasting within the same region, so it only really matters if you have servers in both Ohio and Northern Virginia.
-
-
-When picking a region based on pricing alone, Northern Virginia and Ohio should be your first picks on the east coast, with Oregon for the west. Avoid Northern California if you can as it is over 20% more expensive.
-
-If you need servers around the world, Stockholm and Seoul are the cheapest options for the European and Asian markets, respectively, and they cover most of the world, taking those two points alone.
+ If you need servers around the world, Stockholm and Seoul are the cheapest options for the European and Asian markets, respectively, and they cover most of the world, taking those two points alone.
 
 No matter which region you choose to stay in, that region and always be in the same Availability Zone as there are fees for transferring data across it. Despite being part of the same region, Availability Zones are physically separate data centers and data between them must still travel over common internet wires.
 
@@ -144,14 +122,7 @@ For example, if you're a startup working out of Silicon Valley and you really wa
 
 For many applications though, latency doesn't matter too much unless your site or service is extremely optimized. Looking at this map of AWS regions, many places don't have data centers in their backyard. There's no us central region (yet) because more people live closer to the coasts, and the latency isn't really over 50ms to either coast or Ohio anyway.
 
-If you want to cover most of the world with relatively low latency overall while minimizing costs, you should build your infrastructure across four or five locations:
-
-Ohio as it is closer to central United States than Virginia and equidistant from most of the east coast. Virginia would also be a good option here.
-Oregon to cover the west coast.
-Stockholm (Sweden) on Europe.
-Seoul (South Korea) on the Pacific and Asia region.
-Mumbai (India) is almost as cheap as the United States, so with servers here would be a better idea for the South Pacific region compared to Singapore or Bahrain (Middle East) regions.
-Really, if you care a lot about latency, use a CDN like AWS CloudFront anyway. A CDN stores your website on servers around the world, and serves your website from that cache instead of traveling to it. This relieves some of the stress from your primary web server, and also gives you the benefit of having your network edge physically closer to a specific user. This speeds up the loading times and reduces the time
+If you want to cover most of the world with relatively low latency overall while minimizing costs, you should build your infrastructure across four or five locations.
 
 ### Sources
 
