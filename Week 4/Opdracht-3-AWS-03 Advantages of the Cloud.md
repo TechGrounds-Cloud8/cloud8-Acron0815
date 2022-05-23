@@ -41,3 +41,6 @@ By using cloud computing, you can achieve a lower variable cost than you can get
 ## Sources
 
 [AWS Documentation](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html)
+
+[AWS PlainEnglish](https://aws.plainenglish.io/six-advantages-of-cloud-computing-caa2cccc0696#:~:text=1.,when%20you%20are%20consuming%20it.)
+
