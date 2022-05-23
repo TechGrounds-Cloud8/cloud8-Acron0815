@@ -109,15 +109,60 @@ Note that not every edge location supports every service; check the per-service 
 
 4. ### Why would you choose one region over another? (e.g. eu-central-1 (Frankfurt) over us-west-2 (Oregon)
 
+Which AWS Region Should You Choose?
+
+Data pricing is a big part of AWS, and something that changes by region
+
+AWS data centers anywhere in the world. To complicate your pricing further, each region has different pricing for specific products. Which region is the cheapest? Which one should you build your network architecture?
+
+US-East is usually the cheapest
+
+If you take a look at this pricing chart from Concurrency Labs, it's clear that the two US-East regions, us-east-1 (N. Virginia) and us-east-2 (Ohio), are very cheap compared to the other.
 
 
+ us-west-2 (Oregon) is also very low, but the us-west-1 suffers from Silicon Valley pricing and is much more expensive. Mumbai (India) is also surprisingly quite cheap when compared to the rest of the world.
 
 
+ As for all other regions, they are all more expensive than these four. European regions are typically around 10% more expensive, with Stockholm being the cheapest of them all—just 6% more expensive than the cheapest US regions. The Asian market is around 20-25% more expensive, with Seoul being the cheapest this side of the world only 10% more than the eastern US.
 
+ 
+Data from CloudFront to North America and Europe is the cheapest and the same prices. For the rest of the world, it's a bit more expensive, with South America again topping the list. Anyway, with CloudFront, you're paying for that data as long as you have South American visitors, so there's not much you can do about it.
+
+For internal data transfer, most regions are the same. Search S3 prices, data from S3 to any range $0.02 per GB. However, if you transfer from us-east-1 to east-usa-2 or vice versa, the fee is only $0.01. This doesn't apply, however, if you're broadcasting within the same region, so it only really matters if you have servers in both Ohio and Northern Virginia.
+
+
+When picking a region based on pricing alone, Northern Virginia and Ohio should be your first picks on the east coast, with Oregon for the west. Avoid Northern California if you can as it is over 20% more expensive.
+
+If you need servers around the world, Stockholm and Seoul are the cheapest options for the European and Asian markets, respectively, and they cover most of the world, taking those two points alone.
+
+No matter which region you choose to stay in, that region and always be in the same Availability Zone as there are fees for transferring data across it. Despite being part of the same region, Availability Zones are physically separate data centers and data between them must still travel over common internet wires.
+
+Choose More Regions for Better Latency
+Given how expensive some of the AWS Regions are, the only real reason to choose a more expensive region is if location is more important than price.
+
+For example, if you're a startup working out of Silicon Valley and you really want low latency, you may be fine with paying a 20% premium. For services like Uber that rely on minimal latency to major metropolitan areas, being located in Northern California is simply the cost of doing business.
+
+For many applications though, latency doesn't matter too much unless your site or service is extremely optimized. Looking at this map of AWS regions, many places don't have data centers in their backyard. There's no us central region (yet) because more people live closer to the coasts, and the latency isn't really over 50ms to either coast or Ohio anyway.
+
+If you want to cover most of the world with relatively low latency overall while minimizing costs, you should build your infrastructure across four or five locations:
+
+Ohio as it is closer to central United States than Virginia and equidistant from most of the east coast. Virginia would also be a good option here.
+Oregon to cover the west coast.
+Stockholm (Sweden) on Europe.
+Seoul (South Korea) on the Pacific and Asia region.
+Mumbai (India) is almost as cheap as the United States, so with servers here would be a better idea for the South Pacific region compared to Singapore or Bahrain (Middle East) regions.
+Really, if you care a lot about latency, use a CDN like AWS CloudFront anyway. A CDN stores your website on servers around the world, and serves your website from that cache instead of traveling to it. This relieves some of the stress from your primary web server, and also gives you the benefit of having your network edge physically closer to a specific user. This speeds up the loading times and reduces the time
+
+### Sources
+
+[Which AWS Zone?](https://stackovercoder.com.de/server/466588/which-aws-zone-to-choose-if-website-traffic-will-be-from-india-only)
+
+[Choosing your AWS Region wisely](https://www.concurrencylabs.com/blog/choose-your-aws-region-wisely/)
+
+[Welche AWS-Region Sollten Sie Wählen?](https://allinfo.space/2020/08/11/die-aws-region-sollten-sie-wahlen)
 
 
 ### Overcome challanges
-[Give a short description of your challanges you encountered, and how you solved them.]
+It was not easy to find and filter the large amount of information
 
-### Results
-[Describe here the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
+
