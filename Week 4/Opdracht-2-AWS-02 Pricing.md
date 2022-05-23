@@ -88,6 +88,12 @@ Always free offers can be used up to a certain extent for (for example) AWS Lamb
 
 ### The differences between capex and opex
 
+Sources:
+
+[Head to Head Comparison Between Capex VS Opex](https://www.educba.com/capex-vs-opex/)
+
+[YouTube Video: CapEx vs OpEx explanation](https://www.youtube.com/watch?v=na4jbAh_vkQ)
+
 Capex and Opex differ in the method of payment. While capex means one-off payments in advance, opex refers to monthly, annual or generally recurring and usually smaller expenses.
 
 CapEx (Capital expenditures ): The one-time payment
