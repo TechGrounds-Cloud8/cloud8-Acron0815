@@ -2,6 +2,11 @@
 
 Amazon Web Services (AWS) is the world's most comprehensive and widely used cloud platform with more than 200 services that offer extensive functions and are deployed in globally distributed data centers.
 
+Sources: 
+
+[AWS Tutorial For Beginners](https://www.youtube.com/watch?v=MmsoIcYrXJU&t=7s)
+
+[Learn Amazon Web Sevices](https://intellipaat.com/blog/tutorial/amazon-web-services-aws-tutorial/global-infrastructure/)
 
 
 # AWS Global Infrastructure
@@ -11,6 +16,8 @@ AWS has a global infrastructure made up of the following components:
 Regions
 Availability Zones
 Edge Locations
+
+![AWS-Global-Infrastructure](../00_includes/AWS-01%20Global%20Infrastructure/AWS-Global-Infrastructure.PNG)
 
 As a customer, you have different amounts of control over where your stuff is located depending on the service you use.
 For example, IAM is a global service, so you get no control over where its information is stored. In contrast, you can select specific Availability Zones for RDS instances.
@@ -37,11 +44,11 @@ For example, IAM is a global service, so you get no control over where its infor
 
 1. ### What is an AWS Availability Zone?
 
+An Availability Zone is a logical data center in a region available for use by any AWS customer.
+
 An Availability Zone (AZ) is one or more discrete data centers with redundant power, networking, and connectivity in an AWS Region. AZs give customers the ability to operate production applications and databases that are more highly available, fault tolerant, and scalable than would be possible from a single data center. All AZs in an AWS Region are interconnected with high-bandwidth, low-latency networking, over fully redundant, dedicated metro fiber providing high-throughput, low-latency networking between AZs. All traffic between AZs is encrypted. The network performance is sufficient to accomplish synchronous replication between AZs. AZs make partitioning applications for high availability easy. If an application is partitioned across AZs, companies are better isolated and protected from issues such as power outages, lightning strikes, tornadoes, earthquakes, and more. AZs are physically separated by a meaningful distance, many kilometers, from any other AZ, although all are within 100 km (60 miles) of each other.
 
-Availability Zones (AZs) are isolated environments within data center regions from which public cloud services are operated. Regions are geographic locations where cloud providers' data centers operate. Businesses choose one or more Availability Zones for their services around the world depending on their business needs.
-
-
+ 
 ### Sources
 
 [Availability Zones](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/#:~:text=the%20Middle%20East.-,Availability%20Zones,connectivity%20in%20an%20AWS%20Region.)
