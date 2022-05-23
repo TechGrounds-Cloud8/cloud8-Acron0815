@@ -1,10 +1,12 @@
 # Core Services
 
+[The Document](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
+
 ### This document should be used as a sort of guide to your AWS Cloud Practitioner certification. It highlights the services that you should know in more detail, and describes how to deal with the other services that might appear in the (practice) exam.
 
-### There are a lot of services in AWS, but some are more important than others. AWS lists the following key services that you should have some in-depth knowledge about for the Cloud Practitioner exam:
+### AWS lists the following key services that you should have some in-depth knowledge about for the Cloud Practitioner exam:
 
-###  Amazon EC2
+### Amazon EC2
 
 ### AWS Lambda
 
