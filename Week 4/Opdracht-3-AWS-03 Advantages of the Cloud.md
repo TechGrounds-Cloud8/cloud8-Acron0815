@@ -2,6 +2,8 @@
 
 AWS lists six advantages of cloud computing. These are basic characteristics of the cloud that make it attractive for companies to use. Important to note that it also is a marketing tool for AWS to introduce the cloud to new customers. As such, it is an important part of the AWS Cloud Practitioner exam.
 
+![Six Advantages of Cloud Computing](../00_includes/AWS-03%20Advantages%20of%20the%20Cloud/Six-Advantages-and-Benefits-of-Cloud-Computing.PNG)
+
 
 ## Key terminology
 
@@ -38,6 +40,8 @@ By using cloud computing, you can achieve a lower variable cost than you can get
 6.  Easily deploy your application in multiple regions around the world with just a few clicks. This means you can provide lower latency and a better experience for your customers at minimal cost.
 
 ## Sources
+
+[YouTube Video: Six Advantages and Benefits of Cloud Computing](https://www.youtube.com/watch?v=9x6E6Q9V7S4)
 
 [AWS Documentation](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html)
 
