@@ -27,7 +27,6 @@ Study the six advantages of cloud computing.
 1. The Cloud allows you to trade your CAPEX (Capital Expenses) to OPEX (Operational expense or variable expense). This means that instead of investing in data centers and servers, you will only pay for what you are consuming and when you are consuming it. It will allow you to focus on delivering new products instead of maintaining and create your own infrastructure.
 
 2. Economies of scale lead to increased profits, generating a higher return on capital investment and providing businesses with the platform to grow.
-
 By using cloud computing, you can achieve a lower variable cost than you can get on your own. Because usage from hundreds of thousands of customers is aggregated in the cloud, providers such as AWS can achieve higher economies of scale, which translates into lower pay as-you-go prices.
 
 3. Eliminate guessing on your infrastructure capacity needs. When you make a capacity decision prior to deploying an application, you often end up either sitting on expensive idle resources or dealing with limited capacity. With cloud computing, these problems go away. You can access as much or as little capacity as you need, and scale up and down as required with only a few minutes’ notice. Increase speed and agility – In a cloud computing environment, new IT resources are only a click away, which means that you reduce the time to make those resources available to your developers from weeks to just minutes.
