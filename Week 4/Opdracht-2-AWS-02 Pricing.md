@@ -1,5 +1,7 @@
 # AWS Pricing
 
+![AWS Pricing](../00_includes/AWS-02%20Pricing/AWS-Pricing.PNG)
+
 ### Introduction:
 
 One of the main reasons for moving to the cloud is cost. If done well, public cloud infrastructures can reduce costs significantly compared to traditional data centers. This is done by adopting a pay-as-you-go pricing model and economies of scale.
@@ -31,7 +33,11 @@ Always free services
 3. Understand the differences between capex and opex
 
 
-### The four advantages of the AWS pricing model
+## The four advantages of the AWS pricing model
+
+Source
+
+[Understanding the AWS Pricing](https://www.techmagic.co/blog/aws-pricing-model-overview/)
 
 When you use the right pricing model for your workload resources, you pay the lowest price for those resources.
 
@@ -39,15 +45,40 @@ There are no upfront costs or long-term contracts with AWS, AWS only charges for
 
 All services offered by the company are affordable and billed on a per-use basis. There are no upfront payments or contracts. This is as easy as it gets.
 
-On-Demand Pricing
+### 1. On-Demand Pricing
 
 With on-demand pricing, you pay by the hour for usage of an AWS instance. This is the benchmark pricing for AWS instances—meaning that you compare other pricing models with this one when deciding which is best for you. The benefit of on-demand pricing is that you don’t have to plan in advance how many instances you need. This gives you maximum flexibility. However, it comes at a cost. On-demand pricing is the highest of the lot.
 
-Spot Instances
+Pros
+
+You aren’t obliged to make a long-term commitment
+
+This model is good when you expect that the working load on the cloud may change
+ 
+This is the most flexible pricing approach
+ 
+Cons
+   
+Your saving opportunities are limited 
+ 
+You may quickly run out of budget, and in this case, this model can turn into the most expensive one, even despite its flexibility
+### 2. Spot Instances
 
 With Spot Instances, users bid for the price of spare Instances. There’s a market price for spare instances, and only if this market price meets your instance will you be allotted the instance. Similarly, when the market price reduces, you’ll automatically lose your instance so your charge doesn’t shoot up. This model is a bit more complex than on-demand pricing, but it could save 50-90% of your total costs.
 
-Reserved Instances
+Pros
+
+This is the cheapest AWS pricing model
+
+The approach is suitable for failure-resistant operations, for example, for web servers or CI/CD
+
+Cons
+
+Following this model is challenging, especially if you are just getting started with cloud management
+
+Your instance may be terminated at any time
+
+### 3. Reserved Instances
 
 Finally, if you can reliably predict approximately how much compute resources your applications need in advance, you should consider Reserved Instances (RIs)
 
@@ -57,7 +88,36 @@ If your concern is that your compute requirements may change over 3 years, AWS a
 
 You can even opt for scheduled RIs, so you reserve instances only during specific hours or days, depending on your usage. This gives you more flexibility with RIs.
 
-### AWS Free Tier
+Pros
+
+Your costs are predictable
+
+You may save up to 72% by making a long term commitment
+
+This model is more user-friendly compared to Spot Instances
+
+Cons
+
+You have to make a long-term commitment
+
+You have to pay for an instance regardless of the actual usage
+
+### 4. Savings Plans
+
+The saving plans pricing model was developed and launched in 2019. In this case, you have to choose the computing capacity you need (measured in a fixed price per hour) and make an instant commitment for 1-3 years. That’s, this model is an even more advanced embodiment of an on-demand approach, which in this case, is better predictable.
+
+Pros
+
+The easiest model to get started and proceed with
+Your expenses are predictable
+
+Cons
+
+You have to make a long-term commitment
+
+If you are using the resources that go beyond the chosen capacity, it will be charged according to an on-demand model
+
+## AWS Free Tier
 
 Source: 
 [AWS Free Tier](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Categories=categories%23compute&trk=815440c9-b761-4d2b-b531-fe1ee8275a5a&sc_channel=ps&sc_campaign=acquisition&sc_medium=ACQ-P|PS-GO|Brand|Desktop|SU|Websites|EC2|BEN|EN|Text&s_kwcid=AL!4422!3!495073147331!b!!g!!%2Bfree%20%2Bec2%20%2Bhosting&ef_id=CjwKCAjw4ayUBhA4EiwATWyBrhhBmy_0DbISgV_xWCpT5sfplo_oYfAMyHjsyOl-PkjeWffqJ3ZOuxoC62sQAvD_BwE:G:s&s_kwcid=AL!4422!3!495073147331!b!!g!!%2Bfree%20%2Bec2%20%2Bhosting&awsf.Free%20Tier%20Types=*all)
@@ -88,6 +148,8 @@ Always free offers can be used up to a certain extent for (for example) AWS Lamb
 
 ### The differences between capex and opex
 
+![CAPEX vs OPEX](../00_includes/AWS-02%20Pricing/CAPEX-vs-OPEX.PNG)
+
 Sources:
 
 [Head to Head Comparison Between Capex VS Opex](https://www.educba.com/capex-vs-opex/)
@@ -103,3 +165,7 @@ Business expensens made up front in order to create long term benefits for the f
 OpEx (Operating expenses): The recurring costs
 
 Operating expenses,the expenses to run day-to-day business such as services like website hosting or domain registrations.
+
+Some examples of CAPEX are:  Machinery, plant, land, building, patents and more. 
+
+Examples of OPEX are:  Wages, rent, insurance, maintenance and repair of machinery and more.
