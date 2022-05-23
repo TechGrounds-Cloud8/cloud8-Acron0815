@@ -1,6 +1,6 @@
 # Core Services
 
-Click here --> [The Document](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
+### Click here --> [The Document](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
 
 ### This document should be used as a sort of guide to your AWS Cloud Practitioner certification. It highlights the services that you should know in more detail, and describes how to deal with the other services that might appear in the (practice) exam.
 
