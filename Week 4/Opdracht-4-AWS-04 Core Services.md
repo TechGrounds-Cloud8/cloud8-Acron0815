@@ -1,5 +1,9 @@
 # Core Services
 
+![Services](../00_includes/AWS-04%20Core%20Services/Core-Services-1.PNG)
+
+![Services2](../00_includes/AWS-04%20Core%20Services/Screenshot-198-1024x474.jpg)
+
 ### Click here --> [The Document](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
 
 ### This document should be used as a sort of guide to your AWS Cloud Practitioner certification. It highlights the services that you should know in more detail, and describes how to deal with the other services that might appear in the (practice) exam.
@@ -42,7 +46,9 @@ Exercise
 
 Sources
 
-[List your sources you used for solving the exercise]
+[Top 25 Services in 2022](https://allcode.com/top-aws-services/)
+
+[Top 10 Services in 2021](https://insider.ssi-net.com/insights/the-top-10-most-used-aws-services)
 
 Overcome challanges
 
