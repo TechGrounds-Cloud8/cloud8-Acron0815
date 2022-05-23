@@ -37,7 +37,11 @@ Always free services
 
 Source
 
+[AWS Pricing](https://aws.amazon.com/pricing/)
+
 [Understanding the AWS Pricing](https://www.techmagic.co/blog/aws-pricing-model-overview/)
+
+[AWS Pricing Calculator](https://calculator.aws/#/)
 
 When you use the right pricing model for your workload resources, you pay the lowest price for those resources.
 
