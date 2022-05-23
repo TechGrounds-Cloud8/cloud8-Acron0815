@@ -20,6 +20,7 @@ For example, IAM is a global service, so you get no control over where its infor
 ### - Availability Zones (AZs)
 ### - Regions.
 ### - Edge Locations.
+### - CloudFront
 ### - Regional Edge Caches.
 
 
@@ -31,7 +32,7 @@ For example, IAM is a global service, so you get no control over where its infor
 
 3.What is an Edge Location?
 
-4.Why would you choose one region over another? (e.g. eu-central-1 (Frankfurt) over us-west-2 (Oregon)).
+4.Why would you choose one region over another? (e.g. eu-central-1 (Frankfurt) over us-west-2 (Oregon)
 
 
 1. ### What is an AWS Availability Zone?
@@ -69,10 +70,7 @@ AWS uses the distributed infrastructure of data centers and AZs for internal rep
 AWS will never replicate resources out of a particular Region without the knowledge or consent of the customer, unless the customer explicitly does so, such as when copying a snapshot or AMI to another region.
 
 
-
-The table of regions shows which services are available where.
-
-Service availability: Because AWS is gradually building up its global infrastructure, a new service is not immediately available in every region at all times. The table of regions provides information on this.
+Service availability: Because AWS is gradually building up its global infrastructure, a new service is not immediately available in every region at all times.
 
 ### Sources
 
@@ -81,6 +79,38 @@ Service availability: Because AWS is gradually building up its global infrastruc
 [Globale AWS-Infrastruktur](https://www.windowspro.de/thomas-drilling/globale-aws-infrastruktur-regionen-availability-zonen-edge-standorte-verstehen)
 
 3. ### What is an Edge Location?
+
+- How do I take advantage of edge locations?
+Here’s the great news: You don’t need to do anything to take advantage of edge locations.
+
+If you’re an AWS customer and you use services like CloudFront or Route 53, you’re automatically using edge locations and getting all of the associated benefits. You don’t have to do any configuration or opt-in—it’s all part of the package.
+
+But even if you’re not an AWS customer, you still benefit. CloudFront serves thousands of websites, including ones you visit. And guess what? You saw them that much faster, all thanks to edge locations.
+
+Edge locations are AWS data centers designed to deliver services with the lowest latency possible. Amazon has dozens of these data centers spread across the world. They’re closer to users than Regions or Availability Zones, often in major cities, so responses can be fast and snappy. A subset of services for which latency really matters use edge locations, including:
+
+- CloudFront is the most commonly discussed use of edge locations. It’s a content delivery network that caches content in edge locations. Content can be served directly from the cache, so it gets to users faster. CloudFront is often used to serve static assets, speed up websites, and stream video.
+- Route 53 is purportedly a managed DNS service with name servers spread across Amazon’s edge locations. DNS responses come directly from the edge locations, so they’re as fast as possible.
+- Web Application Firewall and AWS Shield provide a firewall and DDoS protection, respectively. These services filter traffic in edge locations so malicious or unwanted traffic can be discarded as close to source as possible. This, in turn, reduces congestion on Amazon’s global network and the public internet.
+- AWS Global Accelerator allows you to route requests for key resources through  Amazon’s global network—even if the request is going halfway round the world. The request is initially routed to the closest edge location and then travels through Amazon’s network—often with lower latency and higher throughput than the public internet.
+You can’t run your workloads directly in edge locations; they’re only used by Amazon’s managed services.
+
+Some edge location services return a fast response directly to the user. For example, CloudFront caches content in edge locations, and that content can be served directly from the cache. Since the edge location is physically much closer to the user than the origin server, it has lower latency.
+
+Other edge location services route traffic onto the AWS network. AWS has a global network backbone of high-bandwidth, redundant fiber links. Traffic sent over this network is often faster and more reliable than the public internet, especially over long distances. For example, if you download an object using S3 Transfer Acceleration, that object travels from S3 over the AWS global network to your nearest edge location, and it only uses the public internet for the final hop.
+
+There are many more edge locations than Regions. This means users are more likely to be close to an edge location, and get those low latency responses. Amazon adds new edge locations regularly, and users who live nearby will see an automatic improvement in performance. For example, Amazon recently added their first edge location in Thailand. If your application was using AWS Global Accelerator, it would have become faster for Thai users—with no effort required on your part.
+
+Note that not every edge location supports every service; check the per-service documentation to see exactly which edge locations are used by whatever service you’re using.
+
+### Sources
+
+[What is an Edge Location in AWS?](https://www.lastweekinaws.com/blog/what-is-an-edge-location-in-aws-a-simple-explanation/)
+
+4. ### Why would you choose one region over another? (e.g. eu-central-1 (Frankfurt) over us-west-2 (Oregon)
+
+
+
 
 
 
