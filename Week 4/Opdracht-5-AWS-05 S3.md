@@ -38,8 +38,7 @@ Region: Frankfurt (eu-central-1)
 
 3. Share the object URL of your cat picture with a peer. Make sure they are able to see the picture.
 
-### Create new S3 bucket with the following requirements:
-Region: Frankfurt (eu-central-1)
+### Create new S3 bucket with the following requirements: Region: Frankfurt (eu-central-1)
 
 ![Create1](../00_includes/AWS-05%20S3/Excercise1-Create-Bucket1.PNG)
 
