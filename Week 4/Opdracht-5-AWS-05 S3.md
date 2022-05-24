@@ -14,6 +14,8 @@ Amazon Simple Storage Service (Amazon S3) is one of the oldest AWS services, and
 
 ## Source
 
+[Amazon Simple Storage Service Documentation](https://docs.aws.amazon.com/s3/index.html)
+
 [Be.a.Be.Dev.T.E.S.T](https://beabetterdev.com/2021/08/04/the-most-important-aws-core-services/)
 
 ## Key terminology of AWS S3
@@ -66,8 +68,7 @@ Region: Frankfurt (eu-central-1)
 
 4. Share the bucket website endpoint with a peer. Make sure they are able to see the website.
 
-### Create new bucket with the following requirements:
-Region: Frankfurt (eu-central-1)
+### Create new bucket with the following requirements: Region: Frankfurt (eu-central-1)
 
 ![Create 2e bucket](../00_includes/AWS-05%20S3/Excercise2-Create-Bucket.PNG)
 
