@@ -38,7 +38,7 @@ Region: Frankfurt (eu-central-1)
 
 3. Share the object URL of your cat picture with a peer. Make sure they are able to see the picture.
 
-Create new S3 bucket with the following requirements:
+### Create new S3 bucket with the following requirements:
 Region: Frankfurt (eu-central-1)
 
 ![Create1](../00_includes/AWS-05%20S3/Excercise1-Create-Bucket1.PNG)
@@ -46,14 +46,14 @@ Region: Frankfurt (eu-central-1)
 ![Create2](../00_includes/AWS-05%20S3/Excercise1-Create-Bucket2.PNG)
 
 
-Upload a cat picture to your bucket.
+### Upload a cat picture to your bucket.
 
 ![Cat](../00_includes/AWS-05%20S3/Cat-Picture1.PNG)
 
 ![Upload cat](../00_includes/AWS-05%20S3/Excercise1-Upload-Picture.PNG)
 
 
-Share the object URL of your cat picture with a peer. Make sure they are able to see the picture.
+### Share the object URL of your cat picture with a peer. Make sure they are able to see the picture.
 
 ![Share with peer](../00_includes/AWS-05%20S3/Excercise1-Share-the%20URL-with-peer.PNG)
 
@@ -67,25 +67,25 @@ Region: Frankfurt (eu-central-1)
 
 4. Share the bucket website endpoint with a peer. Make sure they are able to see the website.
 
-Create new bucket with the following requirements:
+### Create new bucket with the following requirements:
 Region: Frankfurt (eu-central-1)
 
 ![Create 2e bucket](../00_includes/AWS-05%20S3/Excercise2-Create-Bucket.PNG)
 
-Upload the four files that make up AWS demo website.
+### Upload the four files that make up AWS demo website.
 
 ![Upload 4 files](../00_includes/AWS-05%20S3/Excercise2-Upload-four-files1.PNG)
 
 ![Upload 4 files2](../00_includes/AWS-05%20S3/Excercise2-Upload-four-files2.PNG)
 
 
-Enable static website hosting.
+### Enable static website hosting.
 
 ![Enable](../00_includes/AWS-05%20S3/Excercise2-Enable-website-hosting.PNG)
 
 ![Enable2](../00_includes/AWS-05%20S3/Excercise2-Enable-website-hosting2.PNG)
 
-Share the bucket website endpoint with a peer. Make sure they are able to see the website.
+### Share the bucket website endpoint with a peer. Make sure they are able to see the website.
 
 ![Share](../00_includes/AWS-05%20S3/Excercise2-Share%20the%20bucket%20website.PNG)
 
