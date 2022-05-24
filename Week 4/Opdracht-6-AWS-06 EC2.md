@@ -99,4 +99,4 @@ Rules: Allow SSH, HTTP and HTTPS from anywhere
 
 # Tip
 
-[Why not click here?](https://intellipaat.com/blog/what-is-amazon-ec2-in-aws/)
+[Click here!... why not?](https://intellipaat.com/blog/what-is-amazon-ec2-in-aws/)
