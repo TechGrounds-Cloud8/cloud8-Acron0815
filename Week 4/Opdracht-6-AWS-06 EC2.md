@@ -2,7 +2,7 @@
 
 ![Amazon EC2](../00_includes/AWS-06%20EC2/Amazon%20EC2.PNG)
 
-EC2 (Elastic Compute Cloud)
+## EC2 (Elastic Compute Cloud)
 
 EC2 is one of the premier services offered by Amazon Web Services. EC2 is among the 3 introductory services that were offered by AWS when launched in 2006 (the other 2 being S3 and SQS). The EC2 service provides users with a secure, configurable, scalable, and resizable computing capacity. Users can provision any number of instances and any type of instances they want and pay only for the time service is used for.
 
