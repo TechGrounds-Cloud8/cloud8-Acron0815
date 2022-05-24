@@ -37,7 +37,7 @@
 ### AWS Identity and Access Management
 
 
-### Key terminology
+### - Key terminology
 
 Which key tools, technologies, and concepts might be covered on the exam?
 The following is a non-exhaustive list of the tools and technologies that could appear on the exam.
@@ -85,7 +85,7 @@ The following is a non-exhaustive list of the tools and technologies that could 
  Virtual private networks (VPNs)
 
 
-### Exercise
+### - Exercise
 
 Read and collect information that can be used as a guide for the exam.
 
@@ -104,7 +104,7 @@ storage
 
 - Identify AWS services for common use cases
 
-### Sources
+### - Sources
 
 [Top 25 Services in 2022](https://allcode.com/top-aws-services/)
 
