@@ -37,7 +37,7 @@
 ### AWS Identity and Access Management
 
 
-Key terminology
+### Key terminology
 
 Which key tools, technologies, and concepts might be covered on the exam?
 The following is a non-exhaustive list of the tools and technologies that could appear on the exam.
