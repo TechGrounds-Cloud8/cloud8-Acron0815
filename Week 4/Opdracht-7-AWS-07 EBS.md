@@ -83,9 +83,29 @@ subtitles...
 - Create a text file and write it to the mounted EBS volume.
 
 
-### Attach your new EBS volume to your EC2 instance.
 
 ![Attach your new EBS](../00_includes/AWS-07%20EBS/Exercise-2-1-Attache-your-new-EBS-volume.PNG)
 
 ![Connt-Mout](../00_includes/AWS-07%20EBS/Exercise-2-2-3.PNG)
+
+![TXT](../00_includes/AWS-07%20EBS/Knipsel.PNG)
+
+
+
+## Exercise 3
+- Create a snapshot of your EBS volume.
+
+- Remove the text file from your original EBS volume.
+
+- Create a new volume using your snapshot.
+
+- Detach your original EBS volume.
+
+- Attach the new volume to your EC2 and mount it.
+
+- Find your text file on the new EBS volume.
+
+![Snapshot](../00_includes/AWS-07%20EBS/Knipsel3.PNG)
+
+![Mountpoint](../00_includes/AWS-07%20EBS/Knipsel2.PNG)
 
