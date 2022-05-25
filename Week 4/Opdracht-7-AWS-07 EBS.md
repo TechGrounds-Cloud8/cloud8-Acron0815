@@ -86,3 +86,6 @@ subtitles...
 ### Attach your new EBS volume to your EC2 instance.
 
 ![Attach your new EBS](../00_includes/AWS-07%20EBS/Exercise-2-1-Attache-your-new-EBS-volume.PNG)
+
+![Connt-Mout](../00_includes/AWS-07%20EBS/Exercise-2-2-3.PNG)
+
