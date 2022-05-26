@@ -6,6 +6,8 @@ An AWS Security Group acts as a virtual firewall for your EC2 instances to contr
 
 Both inbound and outbound rules control the flow of traffic to and traffic from your instance, respectively.
 
+----
+
 ## Key terminology
 
 - VPC Flow logs
@@ -28,13 +30,16 @@ A specific port or a port range to allow traffic on.
 
 A specific IP, IP range or other security groups that will be allowed access.
 
+----
+
 ## Exercise
 
 ### Study (Security Groups and Network Access Control Lists in AWS)
+----
 
-### Security Groups in AWS (see above)
+### Security Groups
 
-
+- ### Security Groups in AWS (see above)
 
 ### Network Access Control Lists in AWS
 
