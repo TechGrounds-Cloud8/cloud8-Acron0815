@@ -79,6 +79,8 @@ A specific IP, IP range or other security groups that will be allowed access.
 
 [in LEARNING](https://de.linkedin.com/learning/amazon-web-services-basiswissen-fur-entwickler/benutzer-und-gruppen)
 
+[Ciksiti](https://ciksiti.com/de/chapters/5514-50-frequently-asked-aws-interview-questions-and-answers)
+
 ----
 
 „Nur die Paranoiden überleben“
