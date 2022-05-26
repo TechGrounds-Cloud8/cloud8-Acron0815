@@ -28,9 +28,11 @@ A specific port or a port range to allow traffic on.
 
 A specific IP, IP range or other security groups that will be allowed access.
 
-## Study
+## Exercise
 
-### Security Groups in AWS
+### Study (Security Groups and Network Access Control Lists in AWS)
+
+### Security Groups in AWS (see above)
 
 
 
