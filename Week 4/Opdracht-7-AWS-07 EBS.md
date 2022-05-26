@@ -113,3 +113,11 @@ subtitles...
 
 ![Mountpoint](../00_includes/AWS-07%20EBS/Knipsel2.PNG)
 
+
+## Overcome challanges
+
+I was trying to login to my Amazon AWS account and I got an error message.
+
+"Clear your web browser's cache and cookies, or try using a different browser."
+
+I'm not sure what the problem was, but restarting my Web browser without VPN solved the problem.
