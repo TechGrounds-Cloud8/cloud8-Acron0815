@@ -43,7 +43,7 @@ A specific IP, IP range or other security groups that will be allowed access.
 
 ### Network Access Control Lists in AWS
 
-- A Network Access Control List (NACL) is an optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets. 
+- ### A Network Access Control List (NACL) is an optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets. 
 
 ### Network Access Control Lists (NACL) are sometimes confused with Security Groups. 
 
