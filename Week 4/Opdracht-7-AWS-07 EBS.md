@@ -4,7 +4,12 @@
 
 Amazon EBS (Elastic Block Store) is a cloud-based block storage system provided by Amazon Web Services (AWS) and is best suited for storing data that is not normally accessed and rarely modified.
 
+EBS can be seen as virtual hard drives in the cloud. They can be either root volumes (like an internal hard disk), or seperate volumes (like an external hard disk).
+
 ## Key terminology
+
+### Persistent disks
+- Persistent disks are long-lived network storage devices that your instances can access like physical disks in a desktop or server.
 
 ### EBS Provisioned IOPS SSD (io1) 
 - Offers high IOPS per volume and high maximum throughput per volume, ideal for database workloads.
