@@ -12,4 +12,4 @@ Cron Jobs can be used for individual commands or for the automated execution of 
 
 A practical example of use:
 
-Sending my Newsletter to Abdeslam, Archana, Aurèl, Ben, Casper, Ismail, Killian, Patrick, Quincy, Rolf, Shikha, Tom and tooin progress kscheng (whoever that is)
+Sending my Newsletter to Abdeslam, Archana, Aurèl, Ben, Casper, Ismail, Killian, Patrick, Quincy, Rolf, Shikha, Tom and to kscheng (whoever that is)
