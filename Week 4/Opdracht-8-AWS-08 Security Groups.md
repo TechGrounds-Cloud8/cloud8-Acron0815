@@ -1,10 +1,14 @@
 # Security Groups
 
-Security Groups are AWS's firewall system.
+## Security Groups are AWS's firewall system.
 
-An AWS Security Group acts as a virtual firewall for your EC2 instances to control incoming and outgoing traffic. 
+## An AWS Security Group acts as a virtual firewall for my EC2 instances to control incoming and outgoing traffic. 
 
-Both inbound and outbound rules control the flow of traffic to and traffic from your instance, respectively.
+## Both inbound and outbound rules control the flow of traffic to and traffic from my instance.
+
+## Amazon provides security groups to control who can connect to my Amazon Elastic Compute Cloud (EC2) instances. When I create a site using Amazon Web Services, a security group is created and both HTTPS and HTTP access are granted. However, if I want to work with the EC2 instances over a remote desktop connection or SSH, I need to add rules to allow each connection type.
+
+## With these rules I am able to create users, assign groups and rights and limit registrations.
 
 ----
 
