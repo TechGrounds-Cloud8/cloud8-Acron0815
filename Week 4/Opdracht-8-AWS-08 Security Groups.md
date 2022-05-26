@@ -76,3 +76,11 @@ A specific IP, IP range or other security groups that will be allowed access.
 [YouTube Video: The differences between Security Groups and NACLs in AWS](https://www.youtube.com/watch?v=Oge3ZfOL0jk)
 
 [Difference NACL/Security Groups](https://premaseem.wordpress.com/2021/03/05/difference-between-aws-network-acl-and-security-group/)
+
+[in LEARNING](https://de.linkedin.com/learning/amazon-web-services-basiswissen-fur-entwickler/benutzer-und-gruppen)
+
+----
+
+„Nur die Paranoiden überleben“
+
+Andy Grove
