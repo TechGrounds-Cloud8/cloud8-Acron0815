@@ -25,7 +25,11 @@ Amazon EBS (Elastic Block Store) is a cloud-based block storage system provided 
 
 [What is AWS EBS?](https://intellipaat.com/blog/what-is-aws-ebs-in-amazon/)
 
+[AWS EBS - Elastic Block Store Essentials](https://www.w3schools.com/aws/aws_cloudessentials_awsebs.php)
+
 [Ultimate Amazon EC2 (Elastic Compute Cloud) & EBS (Elastic Block Store) Guide](https://letmetechyou.com/ultimate-amazon-ec2-elastic-compute-cloud-ebs-elastic-block-store-guide/)
+
+[DevCon Linux Basics](https://devconnected.com/category/linux-administration/basics/)
 
 [Amazon EBS (Elastic Block Store)](https://www.computerweekly.com/de/definition/Amazon-EBS-Elastic-Block-Store#:~:text=Amazon%20Elastic%20Block%20Store%20ist,die%20Speicherung%20persistenter%20Daten%20eignet.)
 
