@@ -1,5 +1,7 @@
 # Elastic Load Balancing (ELB) & Auto Scaling
 
+![Work in Progress](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Work%20in%20Progress.PNG)
+
 [Subject]
 [Give a short summary of the subject matter.]
 
