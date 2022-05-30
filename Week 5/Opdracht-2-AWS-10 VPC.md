@@ -44,7 +44,10 @@ Default security group and you can create additional security groups. One
 Security group can only be used in the VPC for which it is created.
 ---
 
- - VPC management is typically done through my provider's (e.g. Amazon AWS) control panel . This access to my VPC allows me to easily make and track changes as needed.
+ - VPC management is typically done through my provider's (e.g. Amazon AWS) control panel . 
+ 
+ 
+   This access to my VPC allows me to easily make and track changes as needed.
 
  ---
 
