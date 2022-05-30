@@ -8,6 +8,8 @@ A VPC lets me build my own private environment on top of a shared, public cloud 
 
 ![VPC](../00_includes/AWS-10%20VPC/VPC-1.PNG)
 
+---
+
 ## Key terminology (a few)
 
 - Virtual Private Cloud compared to a Private Cloud
