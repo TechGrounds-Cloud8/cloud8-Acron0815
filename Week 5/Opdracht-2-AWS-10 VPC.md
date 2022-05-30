@@ -117,12 +117,12 @@ AZ: eu-central-1b
 
 CIDR: 10.0.3.0/24
 
-- View the main route table for Lab VPC. It should have an entry for the NAT gateway. Rename this route table to Private Route Table.
+- 1.View the main route table for Lab VPC. It should have an entry for the NAT gateway. Rename this route table to Private Route Table.
 
 - Explicitly associate the private route 
 table with your two private subnets.
 
-- View the other route table for Lab VPC. It should have an entry for the internet gateway. Rename this route table to Public Route Table.
+- 2.View the other route table for Lab VPC. It should have an entry for the internet gateway. Rename this route table to Public Route Table.
 
 - Explicitly associate the public route table to your two public subnets.
 
@@ -139,6 +139,97 @@ table with your two private subnets.
 
 ![Create Public/Private Subnet](../00_includes/AWS-10%20VPC/Exc.-2-1-Create-Public-en-Private-Sub2.PNG)
 
+### 1.View the main route table for Lab VPC.
+
+![2.3.-view-1](../00_includes/AWS-10%20VPC/Exc.-2-3-View1.PNG)
+
+### 2.View the other route table for Lab VPC.
+
+![2.4.-view-1](../00_includes/AWS-10%20VPC/Exc.-2-4-View1.PNG)
+
+---
+
+## Exercise 3
+
+- Create a Security Group with the following requirements:
+
+Name: Web SG
+
+Description: Enable HTTP Access
+
+VPC: Lab VPC
+
+Inbound rule: allow HTTP access from anywhere
+
+Outbound rule: Allow all traffic
+
+### 1.1 Create a Security Group
+
+![1.1 Create a Security Group](../00_includes/AWS-10%20VPC/Exc.-3-1-Creating-Security-Group.PNG)
 
 
+### 1.2 Create a Security Group (Inbound)
 
+![Create a Security Group (Inbound)](../00_includes/AWS-10%20VPC/Exc.-3-1-Creating-Security-Group-In.PNG)
+
+### 1.3 Create a Security Group (Outbound)
+
+![Create a Security Group (Outbound)](../00_includes/AWS-10%20VPC/Exc.-3-1-Creating-Security-Group-Out.PNG)
+
+---
+
+## Exercise 4
+
+- Launch an EC2 instance with the following requirements:
+
+AMI: Amazon Linux 2
+
+Type: t3.micro
+
+Subnet: Public subnet 2
+
+Auto-assign Public IP: Enable
+
+User data:
+#!/bin/bash
+# Install Apache Web Server and PHP
+yum install -y httpd mysql php
+# Download Lab files
+wget https://aws-tc-largeobjects.s3.amazonaws.com/CUR-TF-100-RESTRT-1/80-lab-vpc-web-server/lab-app.zip
+unzip lab-app.zip -d /var/www/html/
+# Turn on web server
+chkconfig httpd on
+service httpd start
+
+Tag:
+Key: Name
+Value: Web server
+
+Security Group: Web SG
+
+Key pair: no key pair
+
+- Connect to your server using the public IPv4 DNS name.
+
+---
+
+Exercise 4.0
+
+![Exercise 4.0](../00_includes/AWS-10%20VPC/Exc.-4.0.PNG)
+
+
+Exercise 4.1
+
+![Exercise 4.1](../00_includes/AWS-10%20VPC/Exc.-4.1.PNG)
+
+Exercise 4.2
+
+![Exercise 4.2](../00_includes/AWS-10%20VPC/Exc.-4.2.PNG)
+
+Exercise 4.3
+
+![Exercise 4.3](../00_includes/AWS-10%20VPC/Exc.-4.3.PNG)
+
+Exercise 4.4
+
+![Exercise 4.4](../00_includes/AWS-10%20VPC/Exc.-4.4.PNG)
