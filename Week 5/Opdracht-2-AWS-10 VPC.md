@@ -52,6 +52,7 @@ Security group can only be used in the VPC for which it is created.
  ---
 
 ## Exercise 1
+
 - Allocate an Elastic IP address to your account.
 
 - Use the Launch VPC Wizard option to create a new VPC with the following requirements:
@@ -78,3 +79,66 @@ Security group can only be used in the VPC for which it is created.
   CIDR: 10.0.1.0/24
 
   AZ: eu-central-1a
+
+  ---
+
+
+### I Allocate an Elastic IP address to my account.
+
+![Allocate Elastic IP](../00_includes/AWS-10%20VPC/Elastic-ip.PNG)
+
+### I Use the Launch VPC Wizard option to create a new VPC.
+
+![Create a new VPC](../00_includes/AWS-10%20VPC/Exc.-1-1.PNG)
+
+![Create a new VPC](../00_includes/AWS-10%20VPC/Exc.-1-2.PNG)
+
+---
+
+## Exercise 2
+
+- Create an additional public subnet without using the wizard with the following requirements:
+
+ VPC: Lab VPC
+
+ Name: Public Subnet 2
+
+ AZ: eu-central-1b
+
+ CIDR: 10.0.2.0/24
+
+- Create an additional private subnet without using the wizard with the following requirements:
+
+VPC: Lab VPC
+
+Name: Private Subnet 2
+
+AZ: eu-central-1b
+
+CIDR: 10.0.3.0/24
+
+- View the main route table for Lab VPC. It should have an entry for the NAT gateway. Rename this route table to Private Route Table.
+
+- Explicitly associate the private route 
+table with your two private subnets.
+
+- View the other route table for Lab VPC. It should have an entry for the internet gateway. Rename this route table to Public Route Table.
+
+- Explicitly associate the public route table to your two public subnets.
+
+
+### I Create an additional Public Subnet without using the wizard.
+
+![Create Public Subnet](../00_includes/AWS-10%20VPC/Exc.-2-1-Create-Public-Sub2.PNG)
+
+### I Create an additional Private Subnet without using the wizard.
+
+![Create Private Subnet](../00_includes/AWS-10%20VPC/Exc.-2-1-Create-Private-Sub2.PNG)
+
+### I Create an additional Public / Private Subnet without using the wizard.
+
+![Create Public/Private Subnet](../00_includes/AWS-10%20VPC/Exc.-2-1-Create-Public-en-Private-Sub2.PNG)
+
+
+
+
