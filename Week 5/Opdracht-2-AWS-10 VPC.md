@@ -45,3 +45,33 @@ Security group can only be used in the VPC for which it is created.
 ---
 
  - VPC management is typically done through my provider's (e.g. Amazon AWS) control panel . This access to my VPC allows me to easily make and track changes as needed.
+
+ ---
+
+## Exercise 1
+- Allocate an Elastic IP address to your account.
+
+- Use the Launch VPC Wizard option to create a new VPC with the following requirements:
+
+  Region: Frankfurt (eu-central-1)
+
+  VPC with a public and a private subnet
+
+  Name: Lab VPC
+
+  CIDR: 10.0.0.0/16
+
+- Requirements for the public subnet:
+  Name: Public subnet 1
+
+  CIDR: 10.0.0.0/24
+
+  AZ: eu-central-1a
+
+- Requirements for the private subnet:
+
+  Name: Private subnet 1
+
+  CIDR: 10.0.1.0/24
+
+  AZ: eu-central-1a
