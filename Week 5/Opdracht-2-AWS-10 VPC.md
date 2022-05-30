@@ -28,4 +28,6 @@ Affordability:
 
 VPC customers can take advantage of the cost efficiencies of a public cloud, such as savings in hardware costs.
 
- - ### VPC management is typically done through my provider's (e.g. Amazon AWS) control panel . This access to my VPC allows me to easily make and track changes as needed.
+---
+
+ - VPC management is typically done through my provider's (e.g. Amazon AWS) control panel . This access to my VPC allows me to easily make and track changes as needed.
