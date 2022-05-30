@@ -47,10 +47,14 @@ A software distribution service that lets me use applications without actually h
 
 [Video: AWS Security Tutorial](https://www.bing.com/videos/search?q=Shared+Responsibility+Model&docid=608021426472116886&mid=E3EF761CA909105FDF1EE3EF761CA909105FDF1E&view=detail&FORM=VIRE)
 
+---
+
 
 ## Overcome challanges
 
 When searching quickly and in too many sources, it is difficult to discern what is helpful information and what is not.
+
+---
 
 ## Results
 
