@@ -8,7 +8,7 @@ A VPC lets me build my own private environment on top of a shared, public cloud 
 
 ![VPC](../00_includes/AWS-10%20VPC/VPC-1.PNG)
 
-## Key terminology
+## Key terminology (a few)
 
 - Virtual Private Cloud compared to a Private Cloud
 
@@ -28,6 +28,18 @@ Affordability:
 
 VPC customers can take advantage of the cost efficiencies of a public cloud, such as savings in hardware costs.
 
+- Subnet - A range of IP addresses in my VPC.
+
+- Network ACL's - This optional security feature for my VPC, acts as a firewall and
+checks the incoming and outgoing traffic on my subnet.
+
+- Internet gateway - A gateway that I attach to my VPC to enable communication between
+resources in my VPC and the internet.
+
+- Security Groups - Act as a virtual firewall to block inbound and outbound traffic
+for an AWS resource, such as an EC2 instance. Each VPC has one
+Default security group and you can create additional security groups. One
+Security group can only be used in the VPC for which it is created.
 ---
 
  - VPC management is typically done through my provider's (e.g. Amazon AWS) control panel . This access to my VPC allows me to easily make and track changes as needed.
