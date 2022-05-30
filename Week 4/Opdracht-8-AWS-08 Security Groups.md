@@ -83,6 +83,3 @@ A specific IP, IP range or other security groups that will be allowed access.
 
 ----
 
-„Nur die Paranoiden überleben“
-
-Andy Grove
