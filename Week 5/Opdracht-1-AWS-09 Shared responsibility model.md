@@ -14,7 +14,7 @@ As a customer, I am responsible for security "in" the cloud - e.g. for network c
 
 ---
 
-- ### Who is responsible for the security of data in the shared responsibility model?
+- ### Who is responsible for the security of my data in the shared responsibility model?
 
 According to the Shared Responsibility Model, customers are responsible for securing their own data, access and authorizations.
 
