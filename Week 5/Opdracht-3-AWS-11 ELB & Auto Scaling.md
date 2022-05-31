@@ -58,6 +58,13 @@ This ELB acts as a gateway into your network, as well as a load balancer. It wil
 
 CloudWatch collects monitoring and operational data in the form of logs, metrics, and events, and visualizes it using automated dashboards so you can get a unified view of your AWS resources, applications, and services that run on AWS and on premises.
 
+- Autoscaling 
+
+Autoscaling is a built-in feature that automatically adjusts how your AWS setup reacts to loads. Autoscaling is the service you use to make your RDS setup autoscale within limits that you specify.
+When you see the term autoscaling, think of the generic use of a feature (not necessarily a service) to make applications, services, and other AWS features add and remove resources as needed to make applications scale better and provide a consistent user experience. When you see Auto Scaling, think about the service that you specifically use to make autoscaling feasible with certain AWS services. The Auto Scaling feature enables your EC2 instances to handle loads without a lot of human intervention.
+
+![AutoScaling](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/AutoScaling.PNG)
+
 - ## Exercise
 
 Requirements:
@@ -153,6 +160,8 @@ Perform a load test on your server(s) using the website on your server to activa
 [YouTube-Video2](https://www.youtube.com/watch?v=4EOaAkY4pNE) - 
 Not the best sound quality but interesting!
 
+[Jayendra's Cloud Certification Blog](https://jayendrapatil.com/aws-auto-scaling/)
+
 
 ### Overcome challanges
 
@@ -160,7 +169,7 @@ Besides looking for relevant information (see the Sources), also finding the pit
 
 I was not aware of how important the F5 key can be!
 
-- # [F5](https://docs.digicert.com/certificate-tools/Certificate-lifecycle-automation-index/automation-user-guide/install-automation-agentless-loadbalancer/high-availability-f5-big-ip-load-balancer/)
+- ## [F5](https://docs.digicert.com/certificate-tools/Certificate-lifecycle-automation-index/automation-user-guide/install-automation-agentless-loadbalancer/high-availability-f5-big-ip-load-balancer/) ![Robot](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Robot.PNG)
 
 
 ### Results
