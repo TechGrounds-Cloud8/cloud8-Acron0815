@@ -1,24 +1,21 @@
 # Elastic Load Balancing (ELB) & Auto Scaling
 
-![Work in Progress](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Work%20in%20Progress.PNG)
-
-[Subject]
-[Give a short summary of the subject matter.]
-
-Key terminology
-[Write a list of key terminology with a short description. To prevent duplication you can reference to previous excersizes.]
-
-Exercise
-
-
-
-
 ---
+Elastic Load Balancing (ELB) and Auto scaling are quite different services. I have listed out some of the paramount differences between them
+
+1. Elastic Load Balancer is used to balance load between EC2 instances however auto scaling is used to span and remove instances as per load.
+
+2. ELB has url end point via which we can communicate with our application (i.e. a group of EC2 instances) however as per Load or CPU utilization auto scaling add or remove instances to the Target Group (i.e. set of EC2 instances).
+
+3. Auto Scaling is responsible for the number of instances behind ELB however ELB is responsible for distributing traffic within the EC2 instances.
+
+
+![ELB+AS](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/ElasticLoadBalancing%2BAutoScaling.PNG)
 ---
+### What is Elastic Load Balancing (ELB) & Auto Scaling
 
-Elastic Load Balancing (ELB) & Auto Scaling
+- Elastic Load Balancing (ELB)
 
-Introduction
 One of the main advantages of the cloud is that you don’t need to guess how much capacity you need. You can always scale up and down with on-demand services. One of the services that enables this is called Auto Scaling.
 
 When you run an application with a spiky workload, you can host the application on a fleet of EC2 instances instead of a single server. When the demand for the application is high, Auto Scaling can automatically add instances to the fleet. When the demand is lower, it can similarly remove instances.
@@ -27,12 +24,44 @@ To make sure all servers are the same, Auto Scaling makes use of a (custom) AMI.
 
 In a traditional architecture, a client connects to a single server with a single IP address. When dealing with a fleet of servers, this would not work. Therefore, a load balancer can be introduced as a connection endpoint for the client. The load balancer will forward the request to one of the servers in the fleet, and relay the response back to the client.
 
-AWS’ ELB is a managed service that provides load balancing to a fleet of instances. There are four types of ELBs:
-Application Load Balancer: this ELB works using HTTP and HTTPS protocols (layer 7 of the OSI stack).
-Network Load Balancer: this ELB works using TCP and UDP (layer 4 of the OSI stack).
-Classic Load Balancer: this ELB is outdated and not recommended for use. AWS has (so far) never stopped supporting any services. The reason for this is that it can harm existing applications.
-Gateway Load Balancer: this ELB acts as a gateway into your network, as well as a load balancer. It will first route traffic to a (3rd party) application that checks the traffic, like an IDS/IPS or Firewall. After the packet has been inspected, the GWLB acts like a NLB routing to your application. GWLB act on layers 3 and 4 of the OSI stack.
+- Auto Scaling 
+
+(also Autoscaling) is a method in cloud computing environment that is automatically sorted, the number of servers within a server farm is automatically scaled. This means that as the load increases, the work is done by a larger number of servers. If the load drops, superfluous servers are automatically shut down.
+
+With websites, it often happens that few visitors visit the pages during the day and a lot of visitors visit the pages in the evening. During the day, the utilization is therefore low and there are too many servers available. In the evening, on the other hand, the number of servers is not sufficient and this results in performance problems. With autoscaling, the number of servers is automatically reduced during the day when the number of visitors is low, in order to use as many servers as necessary in the evening when the number of visitors is high.
+
+### Key terminology
+
+- ### AWS ELB
+
+![LoadBalancer](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/LoadBalancer.PNG)
+
+AWS ELB is a managed service that provides load balancing to a fleet of instances. There are four types of ELBs:
+
+- Application Load Balancer: 
+
+This ELB works using HTTP and HTTPS protocols (layer 7 of the OSI stack).
+
+- Network Load Balancer: 
+
+This ELB works using TCP and UDP (layer 4 of the OSI stack).
+
+- Classic Load Balancer: 
+
+This ELB is outdated and not recommended for use. AWS has (so far) never stopped supporting any services. The reason for this is that it can harm existing applications.
+
+- Gateway Load Balancer: 
+
+This ELB acts as a gateway into your network, as well as a load balancer. It will first route traffic to a (3rd party) application that checks the traffic, like an IDS/IPS or Firewall. After the packet has been inspected, the Gateway Load Balancer acts like a NLB routing to your application. GWLB act on layers 3 and 4 of the OSI stack.
+
+- Cloudwatch: 
+
+CloudWatch collects monitoring and operational data in the form of logs, metrics, and events, and visualizes it using automated dashboards so you can get a unified view of your AWS resources, applications, and services that run on AWS and on premises.
+
+- ## Exercise
+
 Requirements:
+
 Your AWS environment
 
 ## Exercise 1
@@ -111,12 +140,57 @@ Perform a load test on your server(s) using the website on your server to activa
 
 
 
-Sources
-[List your sources you used for solving the exercise]
+### Sources
 
-Overcome challanges
-[Give a short description of your challanges you encountered, and how you solved them.]
+[A Brief Note...](https://medium.com/programmingnotes/aws-auto-scaling-and-load-balancing-b1c6eeb4d074)
 
-Results
-[Describe here the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
+[Amazon](https://aws.amazon.com/blogs/aws/new-aws-load-balancing-automatic-scaling-and-cloud-monitoring-services/)
 
+[Amazon2](https://docs.aws.amazon.com/index.html?nc2=h_ql_doc_do)
+
+[YouTube-Video1](https://www.youtube.com/watch?v=z59TDrLSFx4)
+
+[YouTube-Video2](https://www.youtube.com/watch?v=4EOaAkY4pNE) - 
+Not the best sound quality but interesting!
+
+
+### Overcome challanges
+
+Besides looking for relevant information (see the Sources), also finding the pitfalls and avoiding them.
+
+I was not aware of how important the F5 key can be!
+
+- # [F5](https://docs.digicert.com/certificate-tools/Certificate-lifecycle-automation-index/automation-user-guide/install-automation-agentless-loadbalancer/high-availability-f5-big-ip-load-balancer/)
+
+
+### Results
+
+E1
+
+![Exc.1.0](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Exc.-1-1.0.PNG)
+
+![Exc.1.1](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Exc.-1-1.1.PNG)
+
+![Exc.1.2](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Exc.-1-1.2.PNG)
+
+![Exc.1.3](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Exc.-1-1.3.PNG)
+
+![Exc.1.4](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Exc.-1-1.4.PNG)
+
+![Exc.1.5](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Exc.-1-1.5.PNG)
+
+E2
+
+![Exc.2.0](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Exc.-2-1.0.PNG)
+
+![Exc.2.1](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Exc.-2-1.1.PNG)
+
+E3
+
+![Exc.3.0](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Exc.-3-1.0.PNG)
+
+![Exc.3.1](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Exc.-3-1.1.PNG)
+
+E4
+
+![Exc.4.0](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Exc.-4-1.0.PNG)
