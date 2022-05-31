@@ -165,7 +165,7 @@ Not the best sound quality but interesting!
 
 ### Overcome challanges
 
-Besides looking for relevant information (see the Sources), also finding the pitfalls and avoiding them.
+Besides looking for relevant information (see the Sources), I also encountered several pitfalls that I tried to avoid.
 
 I was not aware of how important the F5 key can be!
 
