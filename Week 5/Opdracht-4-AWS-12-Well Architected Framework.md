@@ -1,4 +1,7 @@
+# Well Architected Framework
 
+
+The AWS Well-Architected Framework helps cloud architects build the most secure, high-performing, resilient, and efficient infrastructure possible for their applications. The framework provides a consistent approach for customers and AWS Partners to evaluate architectures, and provides guidance to implement designs that scale with your application needs over time.
 
 ![Work in Progress](../00_includes/AWS-12%20Well%20Architected%20Framework/Work%20in%20Progress.PNG)
 
