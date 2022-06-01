@@ -9,6 +9,8 @@ The AWS Well Architected Framework helps cloud architects build the most secure,
 
 Well Architected Framework is based on six pillars:
 
+![Framework](../00_includes/AWS-12%20Well%20Architected%20Framework/Framework.PNG)
+
 1. Operational Excellence
 
 2. Security
