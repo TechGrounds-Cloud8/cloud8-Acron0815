@@ -176,31 +176,42 @@ I was not aware of how important the F5 key can be!
 
 E1
 
-![Exc.1.0](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Exc.-1-1.0.PNG)
+![Exc.1.0](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/1/1-0.PNG)
 
-![Exc.1.1](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Exc.-1-1.1.PNG)
+![Exc.1.1](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/1/1-1.PNG)
 
-![Exc.1.2](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Exc.-1-1.2.PNG)
+![Exc.1.2](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/1/1-2.PNG)
 
-![Exc.1.3](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Exc.-1-1.3.PNG)
-
-![Exc.1.4](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Exc.-1-1.4.PNG)
-
-![Exc.1.5](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Exc.-1-1.5.PNG)
 
 E2
 
-![Exc.2.0](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Exc.-2-1.0.PNG)
+![Exc.2.0](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/1/2-0.PNG)
 
-![Exc.2.1](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Exc.-2-1.1.PNG)
+![Exc.2.1](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/1/2-1.PNG)
+
+![Exc.2.2](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/1/2-2.PNG)
+
+![Exc.2.3](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/1/2-3.PNG)
+
 
 E3
 
-![Exc.3.0](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Exc.-3-1.0.PNG)
+![Exc.3.1](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/1/3-1-1.PNG)
 
-![Exc.3.1](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Exc.-3-1.1.PNG)
+![Exc.3.2](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/1/3-2.PNG)
+
+![Exc.3.3](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/1/3-3.PNG)
 
 E4
 
-![Load](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Load4.1.png)
-![Exc.4.0](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Exc.-4-1.0-1.png)
+![Exc.4.1](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/1/4-1.PNG)
+
+![Exc.4.2](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/1/4-2.PNG)
+
+![Exc.4.3](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/1/4-3.PNG)
+
+![Exc.4.4](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/1/4-4.PNG)
+
+![Exc.4.5](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/1/4-5.PNG)
+
+![Exc.4.6](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/1/4-6.PNG)
