@@ -203,4 +203,4 @@ E3
 E4
 
 ![Load](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Load4.1.png)
-![Exc.4.0](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Exc.-4-1.0.PNG)
+![Exc.4.0](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/Exc.-4-1.0-1.png)
