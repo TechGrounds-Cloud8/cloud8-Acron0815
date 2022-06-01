@@ -1,4 +1,4 @@
-# Elastic Load Balancing (ELB) & Auto Scaling
+# Elastic Load Balancing (ELB) & Auto Scaling.
 
 ---
 Elastic Load Balancing (ELB) and Auto scaling are quite different services. I have listed out some of the paramount differences between them
