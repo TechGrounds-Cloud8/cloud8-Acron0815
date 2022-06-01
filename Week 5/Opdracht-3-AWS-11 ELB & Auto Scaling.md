@@ -16,19 +16,18 @@ Elastic Load Balancing (ELB) and Auto scaling are quite different services. I ha
 
 - Elastic Load Balancing (ELB)
 
-One of the main advantages of the cloud is that you don’t need to guess how much capacity you need. You can always scale up and down with on-demand services. One of the services that enables this is called Auto Scaling.
+Elastic Load Balancing (ELB) automatically distributes incoming application traffic across multiple targets and virtual appliances in one or more Availability Zones (AZs).
 
-When you run an application with a spiky workload, you can host the application on a fleet of EC2 instances instead of a single server. When the demand for the application is high, Auto Scaling can automatically add instances to the fleet. When the demand is lower, it can similarly remove instances.
-
-To make sure all servers are the same, Auto Scaling makes use of a (custom) AMI. Auto Scaling makes use of CloudWatch metrics to determine whether to add or remove instances.
-
-In a traditional architecture, a client connects to a single server with a single IP address. When dealing with a fleet of servers, this would not work. Therefore, a load balancer can be introduced as a connection endpoint for the client. The load balancer will forward the request to one of the servers in the fleet, and relay the response back to the client.
+The load balancer will forward the request to one of the servers in the fleet, and relay the response back to the client.
+Additional info
 
 - Auto Scaling 
 
-(also Autoscaling) is a method in cloud computing environment that is automatically sorted, the number of servers within a server farm is automatically scaled. This means that as the load increases, the work is done by a larger number of servers. If the load drops, superfluous servers are automatically shut down.
+One of the main advantages of the cloud is that you don’t need to guess how much capacity you need. You can always scale up and down with on-demand services. One of the services that enables this is called Auto Scaling.
 
-With websites, it often happens that few visitors visit the pages during the day and a lot of visitors visit the pages in the evening. During the day, the utilization is therefore low and there are too many servers available. In the evening, on the other hand, the number of servers is not sufficient and this results in performance problems. With autoscaling, the number of servers is automatically reduced during the day when the number of visitors is low, in order to use as many servers as necessary in the evening when the number of visitors is high.
+With websites, it often happens that few visitors visit the pages during the day and a lot of visitors visit the pages in the evening. 
+
+During the day, the utilization is therefore low and there are too many servers available. In the evening, on the other hand, the number of servers is not sufficient and this results in performance problems. With autoscaling, the number of servers is automatically reduced during the day when the number of visitors is low, in order to use as many servers as necessary in the evening when the number of visitors is high.
 
 ### Key terminology
 
@@ -38,30 +37,30 @@ With websites, it often happens that few visitors visit the pages during the day
 
 AWS ELB is a managed service that provides load balancing to a fleet of instances. There are four types of ELBs:
 
-- Application Load Balancer: 
+- ### Application Load Balancer: 
 
 This ELB works using HTTP and HTTPS protocols (layer 7 of the OSI stack).
 
-- Network Load Balancer: 
+- ### Network Load Balancer: 
 
 This ELB works using TCP and UDP (layer 4 of the OSI stack).
 
-- Classic Load Balancer: 
+- ### Classic Load Balancer: 
 
 This ELB is outdated and not recommended for use. AWS has (so far) never stopped supporting any services. The reason for this is that it can harm existing applications.
 
-- Gateway Load Balancer: 
+- ### Gateway Load Balancer: 
 
 This ELB acts as a gateway into your network, as well as a load balancer. It will first route traffic to a (3rd party) application that checks the traffic, like an IDS/IPS or Firewall. After the packet has been inspected, the Gateway Load Balancer acts like a NLB routing to your application. GWLB act on layers 3 and 4 of the OSI stack.
 
-- Cloudwatch: 
+- ### Cloudwatch: 
 
 CloudWatch collects monitoring and operational data in the form of logs, metrics, and events, and visualizes it using automated dashboards so you can get a unified view of your AWS resources, applications, and services that run on AWS and on premises.
 
 - Autoscaling 
 
 Autoscaling is a built-in feature that automatically adjusts how your AWS setup reacts to loads. Autoscaling is the service you use to make your RDS setup autoscale within limits that you specify.
-When you see the term autoscaling, think of the generic use of a feature (not necessarily a service) to make applications, services, and other AWS features add and remove resources as needed to make applications scale better and provide a consistent user experience. When you see Auto Scaling, think about the service that you specifically use to make autoscaling feasible with certain AWS services. The Auto Scaling feature enables your EC2 instances to handle loads without a lot of human intervention.
+When you see the term autoscaling, think of the generic use of a feature (not necessarily a service) to make applications, services, and other AWS features add and remove resources as needed to make applications scale better and provide a consistent user experience. The Auto Scaling feature enables your EC2 instances to handle loads without a lot of human intervention.
 
 ![AutoScaling](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/AutoScaling.PNG)
 
