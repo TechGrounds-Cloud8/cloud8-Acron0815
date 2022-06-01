@@ -1,6 +1,7 @@
 # Elastic Load Balancing (ELB) & Auto Scaling.
 
 ---
+
 Elastic Load Balancing (ELB) and Auto scaling are quite different services. I have listed out some of the paramount differences between them
 
 1. Elastic Load Balancer is used to balance load between EC2 instances however auto scaling is used to span and remove instances as per load.
