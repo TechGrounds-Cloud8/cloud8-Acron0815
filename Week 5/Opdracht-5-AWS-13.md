@@ -52,7 +52,7 @@ Is an application lifecycle management platform that enables organizations to mo
 
 -The pricing is not so transparent.
 
--You will need a specialist to manage it, it's not so user friendly.
+-I (you) will need a specialist to manage it.
 
 
  ### Route 53
