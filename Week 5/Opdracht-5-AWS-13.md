@@ -28,7 +28,7 @@ Is an application lifecycle management platform that enables organizations to mo
 
 -It has a very simple setup procurement and hence even people who are new to use Elastic Beanstalk find it very easy.
 
--Also, it gives me the comfort of manage my business application orchestration with other AWS product services such as EC2, S3, SNS, etc.
+-Also, it gives me the comfort of manage my application with other AWS product services such as EC2, S3, SNS, etc.
 
 -It works very well with other AWS product services like EC2, S3, SNS, etc.
 
