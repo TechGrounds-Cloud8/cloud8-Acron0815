@@ -14,7 +14,9 @@
 
 ### Elastic Beanstalk
 
-Is an application lifecycle management platform that enables organizations to monitor, autoscale, and track performance of CPU utilization, latency, and response codes.
+![Elastic-Beanstalk](../00_includes/AWS-13%20Files%2CApp%20Services%2CCDN%2CDNS%2CDatabase/Elastic-Beanstalk.PNG)
+
+Elastic Beanstalk is an application lifecycle management platform that enables organizations to monitor, autoscale, and track performance of CPU utilization, latency, and response codes.
 
 -AWS Elastic Beanstalk is brilliant for offering PaaS in terms of application code management and deployments.
 
@@ -39,6 +41,8 @@ Is an application lifecycle management platform that enables organizations to mo
 -Although it has dedicated CLI for operability, most of the convenient features present in AWS CLI is not available.
 
 ### Cloudfront
+
+![Cloudfront](../00_includes/AWS-13%20Files%2CApp%20Services%2CCDN%2CDNS%2CDatabase/Cloud-Front.PNG)
 
  Cloudfront is a Content Delivery Network (CDN) service that makes it possible to deliver applications, data, videos and APIs in a developer-friendly environment.
 
