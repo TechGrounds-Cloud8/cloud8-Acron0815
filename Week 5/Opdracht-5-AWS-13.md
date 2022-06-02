@@ -22,7 +22,7 @@ Is an application lifecycle management platform that enables organizations to mo
 
 -Also it provides great levels of flexibility, ease of usage for deploying & scaling web based application in AWS Platform based on the client specifications.
 
-### Here are a few advantages of Elastic Beanstalk
+- Here are a few advantages of Elastic   Beanstalk
 
 -It offers a variety of programming languages compatibility. 
 
@@ -32,7 +32,7 @@ Is an application lifecycle management platform that enables organizations to mo
 
 -It works very well with other AWS product services like EC2, S3, SNS, etc.
 
-### Here are a few downsides of Elastic Beanstalk
+- Here are a few downsides of Elastic Beanstalk
 
 -Its cost is not definitive and it depends on the number of EC2 Instances and S3 Bucket size.
 
@@ -42,11 +42,11 @@ Is an application lifecycle management platform that enables organizations to mo
 
  Cloudfront is a Content Delivery Network (CDN) service that makes it possible to deliver applications, data, videos and APIs in a developer-friendly environment.
 
- ### Here are a few advantages of Cloudfront
+ - Here are a few advantages of Cloudfront
 
  -It's easy to start to use the CDN service once you host your website on Amazon
 
-### Here are a few downsides of Cloudfront
+- Here are a few downsides of Cloudfront
 
 -Be ready for a ton of tech jargon that you are definitely not going to understand if you are new to this.
 
