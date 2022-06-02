@@ -73,7 +73,7 @@ Is an application lifecycle management platform that enables organizations to mo
 
  -No DNSSEC support. AWS Route 53 does not support the DNSSEC standard. DNSSEC can prevent man in the middle (MITM) attacks and other types of DNS attacks.
 
- -Route 53 Cost. Particularly for businesses using Route 53 with non-AWS endpoints/services, the service is expensive. The visual editor in particular is costly; it is $50/month in addition to the cost of queries for each record type to which you apply a visual editor policy.
+ -Route 53 with non-AWS endpoints/services, is expensive. The visual editor in particular is costly; it is $50/month in addition to the cost of queries for each record type to which you apply a visual editor policy.
 
 
 ## Key terminology
