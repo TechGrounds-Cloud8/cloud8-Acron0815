@@ -148,6 +148,7 @@ The usual ones like the internet, YouTube, Lynda tutorials, e-books, usenet and 
 
 [YouTube Video: Learn AWS from scratch](https://www.youtube.com/watch?v=cJLJrLlZ8no&t=22593s)
 
+[Was ist EFS?](https://www.howtoforge.de/anleitung/was-ist-efs-elastic-file-system-in-aws-und-wie-benutzt-man-es/)
 
 
 
