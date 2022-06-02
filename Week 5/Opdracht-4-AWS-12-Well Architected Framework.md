@@ -26,6 +26,12 @@ Well Architected Framework is based on six pillars:
 - 1 -
 Operational excellence focuses on the continuous optimization of the cloud environment and the monitoring of the running systems. The aim of the AWS Well Architected Framework is to offer improved value creation through optimized structures and processes.
 
+- To implement Operational Excellence please use services like CloudWatch, CloudTrail, X-Ray and VPC Flow Logs. Familiarize yourself with the health of your workload.
+
+![CloudWatch](../00_includes/AWS-12%20Well%20Architected%20Framework/CloudWatch.PNG)
+
+
+
 - 2 - Security: Within IT, the protection of data and systems has the highest priority. During the AWS Well Architected Framework, particularly security-critical points such as rights management in my AWS environment and, for example, the control for early detection of security risks and incidents are considered. If security gaps are revealed, appropriate optimization processes are suggested.
 
 - 3 - Reliability of cloud environments is defined with a high level of error prevention and rapid and automated recovery of the systems in the event of a failure. The AWS Well Architected Framework is designed to identify resource bottlenecks and request capacity extension.
@@ -58,4 +64,6 @@ Searching for current and relevant information.
 ### Results
 
 are interesting and give an insight into the complexity and the importance of the matter.
+
+The AWS Well-Architected Framework is a combination of a few areas that allows me, as an AWS customer and user, to build robust, scalable architectures and solutions and evaluate them appropriately. Although this article focuses on design principles in AWS, the concepts can be the same for any other cloud application architecture.
 
