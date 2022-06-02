@@ -116,7 +116,16 @@ Amazon Relational Database Service (RDS)
 Amazon Aurora
 
 ---
----
+
+## Sources
+
+The usual ones like the internet, YouTube, Lynda tutorials, e-books, usenet and especially this one:
+
+[YouTube Video: Learn AWS from scratch](https://www.youtube.com/watch?v=cJLJrLlZ8no&t=22593s)
+
+
+
+
 
 
 [Subject]
