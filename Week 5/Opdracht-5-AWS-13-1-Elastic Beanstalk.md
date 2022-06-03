@@ -38,7 +38,7 @@ In this diagram, the environment is shown within the top-level solid line. When 
 When Elastic Beanstalk analyses my application and selects the resources that will be required. When I deploy an application, Beanstalk will offer an EC2 instance. It will also allow me to step in and select alternative resources that may be better suited to anticipated use cases it may not know about. For example I could select a higher spec EC2 instance type that better suits my needs.
 
 ## ! 
-Since Elastic Beanstalk is built on top of existing services like EC2, you can also use the underlying resources (though be careful here).
+Since Elastic Beanstalk is built on top of existing services like EC2, you can also use the underlying resources (though be careful here!).
 
 
 ## Sources
