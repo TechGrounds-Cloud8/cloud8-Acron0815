@@ -4,6 +4,8 @@
 
 Elastic Beanstalk is an application lifecycle management platform that enables organizations to monitor, autoscale, and track performance of CPU utilization, latency, and response codes.
 
+Also is AWS Elastic Beanstalk a service from Amazon that provides web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers like Apache, Nginx, Passenger, and IIS and scaled.
+
 -AWS Elastic Beanstalk is brilliant for offering PaaS in terms of application code management and deployments.
 
 -It helps me by focusing more on the coding standards and not the underlying infrastructure.
@@ -25,3 +27,11 @@ Elastic Beanstalk is an application lifecycle management platform that enables o
 -Its cost is not definitive and it depends on the number of EC2 Instances and S3 Bucket size.
 
 -Although it has dedicated CLI for operability, most of the convenient features present in AWS CLI is not available.
+
+
+![Elastic-Beanstalk2](../00_includes/AWS-13%20Files%2CApp%20Services%2CCDN%2CDNS%2CDatabase/Elastic-Beanstalk2.PNG)
+
+In this diagram, the environment is shown within the top-level solid line. When you create an environment, Elastic Beanstalk provisions the resources required to run your application. AWS resources created for an environment include one elastic load balancer (ELB in the diagram), an Auto Scaling group, and one or more Amazon Elastic Compute Cloud (Amazon EC2) instances.
+
+## ! 
+Since Elastic Beanstalk is built on top of existing services like EC2, you can also use the underlying resources (though be careful here).
