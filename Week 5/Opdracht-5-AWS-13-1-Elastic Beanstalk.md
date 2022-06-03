@@ -33,5 +33,19 @@ Also is AWS Elastic Beanstalk a service from Amazon that provides web applicatio
 
 In this diagram, the environment is shown within the top-level solid line. When you create an environment, Elastic Beanstalk provisions the resources required to run your application. AWS resources created for an environment include one elastic load balancer (ELB in the diagram), an Auto Scaling group, and one or more Amazon Elastic Compute Cloud (Amazon EC2) instances.
 
+- Elastic Beanstalk in association with EC2
+
+When Elastic Beanstalk analyses my application and selects the resources that will be required. When I deploy an application, Beanstalk will offer an EC2 instance. It will also allow me to step in and select alternative resources that may be better suited to anticipated use cases it may not know about. For example I could select a higher spec EC2 instance type that better suits my needs.
+
 ## ! 
 Since Elastic Beanstalk is built on top of existing services like EC2, you can also use the underlying resources (though be careful here).
+
+
+## Sources
+
+[YouTube Video: Elastic Beanstalk Tutorial](https://www.youtube.com/watch?v=jnMUp2c9AzA)
+
+[Amazon AWS Document - AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/?sc_channel=EL&sc_campaign=Anim_Explainer_2020_vid&sc_medium=YouTube&sc_content=Video7757&sc_detail=COMPUTE&sc_country=US)
+
+[Amazon AWS Document - AWS Elastic Beanstalk FAQs](https://aws.amazon.com/elasticbeanstalk/faqs/)
+
