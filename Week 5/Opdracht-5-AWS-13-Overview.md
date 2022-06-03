@@ -138,7 +138,7 @@ In the next step I create a new Amazon EC2 instance running Amazon Linux 2, and 
 ---
 
 At my first login attempt on my newly created EC2 Instance, I was unable to access it.
-After some searching on the internet and in the security tab it turned out that I had to change/adjust the Inbound rules.
+After some searching on the internet and in the security tab it turned out that I had to change/adjust the Inbound rules!
 
 ![Terminal-1](../00_includes/AWS-13%20Files%2CApp%20Services%2CCDN%2CDNS%2CDatabase/Terminal1.PNG)
 
