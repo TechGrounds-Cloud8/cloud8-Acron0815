@@ -1,7 +1,7 @@
 # Files,AppServices,CDN,DNS,Database
 
 
-![Work in Progress](../00_includes/AWS-13%20Files%2CApp%20Services%2CCDN%2CDNS%2CDatabase/Work%20in%20Progress.PNG)
+
 
 
 ## Study:
