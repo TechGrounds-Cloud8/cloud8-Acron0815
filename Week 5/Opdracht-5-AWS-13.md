@@ -114,6 +114,8 @@ Amazon Aurora is a relational database management system (RDBMS) built for the c
 
 - Sources
 
+[Was ist EFS?](https://www.howtoforge.de/anleitung/was-ist-efs-elastic-file-system-in-aws-und-wie-benutzt-man-es/)
+
 [Are you a first-time user of Amazon EFS?](https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html#welcome-first-time-user)
 
 
@@ -129,10 +131,13 @@ Here I see the Network information.
 
 In the next step I create a new Amazon EC2 instance running Amazon Linux 2, and configure it to automatically mount the EFS file system i just created in Step 1 - <-On Hold
 
-# ? ? ?
+![Step2-1](../00_includes/AWS-13%20Files%2CApp%20Services%2CCDN%2CDNS%2CDatabase/Create-EFS-Step2-1.PNG)
 
-![WIHL](../00_includes/AWS-13%20Files%2CApp%20Services%2CCDN%2CDNS%2CDatabase/WIHL.PNG)
+![Step2-2](../00_includes/AWS-13%20Files%2CApp%20Services%2CCDN%2CDNS%2CDatabase/Create-EFS-Step2-2.PNG)
 
+---
+
+![Terminal-1](../00_includes/AWS-13%20Files%2CApp%20Services%2CCDN%2CDNS%2CDatabase/Terminal1.PNG)
 
 
 
@@ -156,13 +161,7 @@ The performance of Aurora and RDS depends on the engine you use with RDS, as som
 
 ---
 
-## Sources
 
-The usual ones like the internet, YouTube, Lynda tutorials, e-books, usenet and especially this one:
-
-[YouTube Video: Learn AWS from scratch](https://www.youtube.com/watch?v=cJLJrLlZ8no&t=22593s)
-
-[Was ist EFS?](https://www.howtoforge.de/anleitung/was-ist-efs-elastic-file-system-in-aws-und-wie-benutzt-man-es/)
 
 
 
