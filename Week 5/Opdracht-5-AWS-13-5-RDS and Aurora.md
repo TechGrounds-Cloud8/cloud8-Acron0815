@@ -12,6 +12,8 @@ Amazon RDS is a managed relational database service capable of taking the stress
 
 # Amazon Aurora
 
+Aurora is a MySQL and PostgreSQL managed compatible relational database engine. You can use existing MySQL and PostgreSQL databases with Aurora. However, Aurora can have up to five times the throughput of MySQL.
+
 The fundamental building block of Amazon RDS is called the “DB instance.” A DB instance is a database environment in the cloud, and it can contain multiple databases. Each DB instance runs a DB engine, and with Amazon RDS, you can choose between various DB engines, including Aurora.
 You can access RDS and Aurora through Amazon Web Services (AWS), but they have slightly different intended uses. Essentially, the AWS Aurora database is a custom engine for Amazon RDS and is optimized for performance in the cloud.
 Aurora is compatible with MySQL and PostgreSQL, and it’s intended to combine the availability and performance of traditional database engines with the cost-effectiveness and straightforwardness of open source. RDS can be used with various engines, while Aurora is a special engine developed for use with RDS.
