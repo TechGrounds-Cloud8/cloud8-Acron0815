@@ -15,3 +15,5 @@
 -The pricing is not so transparent.
 
 -I (you) will need a specialist to manage it.
+
+Amazon CloudFront claims to be a fast content delivery service that securely delivers data, video, applications, and APIs to customers around the world with low latency and high transfer speeds - all within a developer-friendly environment. Benefits of using it include the provision of the highly resilient Amazon backbone network, network and application layer protection, custom programmability, and tight integration with AWS. The pricing model is usage-based; the free version includes 50 GB data transfer out and 2 million HTTP and HTTPS requests per month for one year.
