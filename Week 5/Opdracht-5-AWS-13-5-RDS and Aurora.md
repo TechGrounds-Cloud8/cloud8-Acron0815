@@ -12,9 +12,49 @@ Amazon RDS is a managed relational database service capable of taking the stress
 
 ![RDS](../00_includes/AWS-13%20Files%2CApp%20Services%2CCDN%2CDNS%2CDatabase/RDS.png)
 
-## Source
+## Amazon RDS features and functionality
+
+### Amazon RDS features and functions are:
+
+- Six different database engines (Amazon Aurora, MySQL, PostgreSQL, MariaDB, Oracle and Microsoft SQL Server).
+
+- Real-time scalable disk space with maximum size dependent on database engine (maximum 64 or 16 terabytes).
+
+- Scale read traffic and increase read throughput across replicas.
+
+- Automatic backup of database instances (databases and transaction logs) with user-defined retention time.
+
+- User-initiated database snapshots.
+
+- Deployment of Amazon RDS in multiple Availability Zones (Multi-AZ deployment) to realize high availability.
+
+- Automatic host replacement in case of hardware failures.
+
+- Encryption of data at rest and in transit including support for transparent data encryption in SQL Server and Oracle.
+
+- Isolation of database instances in their own virtual networks.
+
+- Controlling access via firewalling.
+
+- Granting permissions for actions on RDS resources to users or groups through AWS Identity and Access Management (IAM).
+
+- Monitoring of the operational metrics of the database instances via Amazon CloudWatch and management console (including Enhanced Monitoring with access to more than 50 key performance metrics).
+
+- Automatic notification of database events via SMS or email.
+
+- Management of Amazon RDS via AWS Management Console, AWS Command Line Interface, or Amazon RDS APIs.
+
+- Automatic recording of all changes to database instances.
+
+## Sources
+
+[Introduction to Amazon Aurora](https://www.youtube.com/watch?v=FzxqIdIZ9wc)
 
 [What is Amazon Relational Database Service (Amazon RDS)?](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html)
+
+[Was ist Amazon RDS?](https://www.cloudcomputing-insider.de/was-ist-amazon-rds-a-1013070/)
+
+[Amazon RDS](https://aws.amazon.com/rds/?nc=sn&loc=3&dn=1)
 
 # Amazon Aurora
 
@@ -26,7 +66,9 @@ The fundamental building block of Amazon RDS is called the “DB instance.” A 
 You can access RDS and Aurora through Amazon Web Services (AWS), but they have slightly different intended uses. Essentially, the AWS Aurora database is a custom engine for Amazon RDS and is optimized for performance in the cloud.
 Aurora is compatible with MySQL and PostgreSQL, and it’s intended to combine the availability and performance of traditional database engines with the cost-effectiveness and straightforwardness of open source. RDS can be used with various engines, while Aurora is a special engine developed for use with RDS.
 
-## Source
+![Aurora DB Clusters](../00_includes/AWS-13%20Files%2CApp%20Services%2CCDN%2CDNS%2CDatabase/Aurora.PNG)
+
+## Sources
 
 [What is Amazon Aurora?](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html)
 
