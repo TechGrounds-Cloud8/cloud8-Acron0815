@@ -2,12 +2,38 @@
 
 Amazon Elastic File System (Amazon EFS) automatically grows and shrinks as you add and remove files with no need for management or provisioning.
 
+Amazon EFS is an NFS file system service offered by AWS. An Amazon EFS file system is excellent as a managed network file system that can be shared across different Amazon EC2 instances. Amazon EFS works like NAS devices and performs well for big data analytics, media processing workflows, and content management. EFS can be accessed by multiple instances at a time through NFS protocol. It is used as a clustered database and document sharing.
+
+- Benefits of EFS
+
+-With EFS you need not worry about  managing file servers or storage, updating hardware, configuring software, or performing backups as EFS is a fully managed service.
+
+-The distributed architecture of Amazon EFS provides data protection from an AZ outage, system and component failures, and network connection errors.
+
+-Network Access to the files can be controlled using Virtual Private Cloud security group rules and with Identity Access Management policies and EFS access points you can control the access to your files.
+
+-Amazon EFS is designed to provide the throughput, IOPS, and low latency needed for a broad range of workloads.
+
+-With Amazon EFS, storage capacity is elastic, growing and shrinking automatically as you add and remove files, dynamically providing the storage capacity to applications as they need it.
+
+-AWS EFS provides encryption of data both at rest and in transit so that your data is secure.
+
+![EFS Architecture](../00_includes/AWS-13%20Files%2CApp%20Services%2CCDN%2CDNS%2CDatabase/EFS.PNG)
+
 ## Exercises
 
 ### Amazon Elastic File System (Amazon EFS)
 	In this exercise I create a Amazon EFS file system.
 
 - Sources
+
+[Dutch Cloud Community](https://dutchcloudcommunity.nl/)
+
+[YouTube Video: Amazon Elastic File System (EFS)](https://www.youtube.com/watch?v=OyMqALRqG6s)
+
+[AWS News Blog](https://dutchcloudcommunity.nl/nieuws/wire/aws-news-blog-new-lower-cost-storage-classes-for-amazon-elastic-file-system/)
+
+[AWS EFS, EBS and S3: Best AWS Storage Option](https://k21academy.com/amazon-web-services/difference-between-aws-efs-ebs-and-s3/)
 
 [Was ist EFS?](https://www.howtoforge.de/anleitung/was-ist-efs-elastic-file-system-in-aws-und-wie-benutzt-man-es/)
 

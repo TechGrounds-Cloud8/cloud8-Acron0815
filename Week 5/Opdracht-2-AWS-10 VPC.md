@@ -8,6 +8,12 @@ A VPC lets me build my own private environment on top of a shared, public cloud 
 
 ![VPC](../00_includes/AWS-10%20VPC/VPC-1.PNG)
 
+Each Amazon account comes with a default VPC that is pre-configured for you to start using immediately. A VPC can span multiple availability zones in a region. This is a diagram of a default VPC:
+
+![VPC Diagram](../00_includes/AWS-13%20Files%2CApp%20Services%2CCDN%2CDNS%2CDatabase/VPC.PNG)
+
+
+
 ---
 
 ## Key terminology (a few)
@@ -245,6 +251,8 @@ Exercise 4.4
 [YouTube Video: Amazon/AWS VPC (Virtual Private Cloud) Basics](https://www.youtube.com/watch?v=7_NNlnH7sAg)
 
 [Storage and AWS](https://www.cloudcomputing-insider.de/suche/?k=VPC)
+
+[How to...](https://www.middlewareinventory.com/blog/aws-vpc-peering-tutorial/)
 
 ## Overcome challanges
 

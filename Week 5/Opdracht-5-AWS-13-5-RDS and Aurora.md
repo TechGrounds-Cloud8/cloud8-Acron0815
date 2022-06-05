@@ -10,6 +10,8 @@ Amazon RDS is a managed relational database service capable of taking the stress
 
 -Relational databases provide stability and reliability for transactional databases.
 
+![RDS](../00_includes/AWS-13%20Files%2CApp%20Services%2CCDN%2CDNS%2CDatabase/RDS.png)
+
 ## Source
 
 [What is Amazon Relational Database Service (Amazon RDS)?](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html)

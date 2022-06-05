@@ -14,10 +14,12 @@ As a customer, I am responsible for security "in" the cloud - e.g. for network c
 
 ---
 
+![Who?](../00_includes/AWS-13%20Files%2CApp%20Services%2CCDN%2CDNS%2CDatabase/Shared%20Responsibility%20Model1.PNG)
 - ### Who is responsible for the security of my data in the shared responsibility model?
 
 According to the Shared Responsibility Model, customers are responsible for securing their own data, access and authorizations.
 
+![Shared Responsibility Model](../00_includes/AWS-13%20Files%2CApp%20Services%2CCDN%2CDNS%2CDatabase/Shared%20Responsibility%20Model.PNG)
 ---
 
 ## Key terminology
