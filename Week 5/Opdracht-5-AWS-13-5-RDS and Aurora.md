@@ -72,6 +72,12 @@ Aurora is compatible with MySQL and PostgreSQL, and it’s intended to combine t
 
 [What is Amazon Aurora?](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html)
 
+[Amazon Aurora](https://www.computerweekly.com/de/definition/Amazon-Aurora)
+
+[TouTube Video: Aws Aurora Db tutorial with Practical Example for beginners](https://www.youtube.com/watch?v=n_QplvENyLY)
+
+[YouTube Video: Top 50+ AWS Services Explained in 10 Minutes](https://www.youtube.com/watch?v=JIbIYCM48to)
+
 - ### Amazon Aurora vs. Amazon Relational Database Service (RDS)
 
 The main benefits of Amazon RDS are its preconfigured parameters, automatic software patching capabilities, and robust tools for monitoring and metrics.
