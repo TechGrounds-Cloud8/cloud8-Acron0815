@@ -40,6 +40,10 @@ When Elastic Beanstalk analyses my application and selects the resources that wi
 ## ! 
 Since Elastic Beanstalk is built on top of existing services like EC2, you can also use the underlying resources (though be careful here!).
 
+## Exercise
+
+Learn and try to understand Elastic Beanstalk.
+
 
 ## Sources
 
@@ -62,3 +66,5 @@ If you're starting with Amazon Web Services like me, it's easier to get started 
 AWS interface is a bit overwhelming and daunting at first.
 
 Be ready for a ton of tech jargon that you are definitely not going to understand if you are new to this.
+
+I tried to use what I had learned so far as much as possible in order to achieve a satisfactory result.

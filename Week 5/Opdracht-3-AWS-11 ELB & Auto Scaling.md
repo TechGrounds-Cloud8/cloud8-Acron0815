@@ -223,3 +223,5 @@ E4
 AWS interface is a bit overwhelming and daunting at first.
 
 Be ready for a ton of tech jargon that you are definitely not going to understand if you are new to this.
+
+I tried to use what I had learned so far as much as possible in order to achieve a satisfactory result.

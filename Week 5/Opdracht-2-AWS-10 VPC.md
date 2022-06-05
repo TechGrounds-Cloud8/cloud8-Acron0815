@@ -236,10 +236,22 @@ Exercise 4.4
 
 ---
 
+## Sources
+
+[Everything You Need to Know](https://www.simplilearn.com/resources/cloud-computing)
+
+[What is Virtual Private Cloud (VPC)?](https://docs.aws.amazon.com/vpc/latest/userguide/configure-your-vpc.html)
+
+[YouTube Video: Amazon/AWS VPC (Virtual Private Cloud) Basics](https://www.youtube.com/watch?v=7_NNlnH7sAg)
+
+[Storage and AWS](https://www.cloudcomputing-insider.de/suche/?k=VPC)
+
 ## Overcome challanges
 
 AWS interface is a bit overwhelming and daunting at first.
 
 Be ready for a ton of tech jargon that you are definitely not going to understand if you are new to this.
+
+I tried to use what I had learned so far as much as possible in order to achieve a satisfactory result.
 
 ---

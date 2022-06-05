@@ -55,6 +55,10 @@ The usual ones like the internet, YouTube, Lynda tutorials, e-books, usenet and 
 
 [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/?wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc)
 
+and this too:
+
+[CloudComputingInsider](https://www.cloudcomputing-insider.de/suche/)
+
 ---
 
 ### Overcome challanges
@@ -65,11 +69,13 @@ AWS interface is a bit overwhelming and daunting at first.
 
 Be ready for a ton of tech jargon that you are definitely not going to understand if you are new to this.
 
+I tried to use what I had learned so far as much as possible in order to achieve a satisfactory result.
+
 ---
 
 ### Results
 
-are interesting and give an insight into the complexity and the importance of the matter.
+Are interesting and give an insight into the complexity and the importance of the matter.
 
 The AWS Well-Architected Framework is a combination of a few areas that allows me, as an AWS customer and user, to build robust, scalable architectures and solutions and evaluate them appropriately. Although this article focuses on design principles in AWS, the concepts can be the same for any other cloud application architecture.
 

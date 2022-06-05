@@ -6,7 +6,12 @@
 
  - Here are a few advantages of CloudFront
 
- -It's easy to start to use the CDN service once you host your website on Amazon
+ -It uses HTTP or HTTPS protocols for quick delivery of content.
+
+-It's easy to start to use the CDN service once you host your website on Amazon
+
+-Users get lower latency (the time it takes to load the first byte of the file) and higher data transfer rates.
+
 
 - Here are a few downsides of CloudFront
 
@@ -15,6 +20,27 @@
 -The pricing is not so transparent.
 
 -I (you) will need a specialist to manage it.
+
+## What can I do with Amazon CloudFront?
+
+Amazon CloudFront provides a simple API that lets you:
+
+Distribute content with low latency and high data transfer rates by serving requests using a network of edge locations around the world.
+Get started without negotiating contracts and minimum commitments.
+
+## Exercise
+
+Learn and try to understand Cloud Front.
+
+## Sources
+
+[Everything You Need to Know](https://www.simplilearn.com/tutorials/aws-tutorial/aws-cloudfront)
+
+[What is Amazon CloudFront?](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
+
+[YouTube Video: AWS Cloud Front](https://www.youtube.com/watch?v=sQNONcj0cvc)
+
+[Storage and AWS](https://www.cloudcomputing-insider.de/storage-in-aws-kostenlos-nutzen-a-1062343/)
 
 ## Results
 
@@ -33,3 +59,5 @@ Amazon CloudFront claims to be a fast content delivery service that securely del
 AWS interface is a bit overwhelming and daunting at first.
 
 Be ready for a ton of tech jargon that you are definitely not going to understand if you are new to this.
+
+I tried to use what I had learned so far as much as possible in order to achieve a satisfactory result.

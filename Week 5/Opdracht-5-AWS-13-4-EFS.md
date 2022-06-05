@@ -11,6 +11,8 @@ Amazon Elastic File System (Amazon EFS) automatically grows and shrinks as you a
 
 [Was ist EFS?](https://www.howtoforge.de/anleitung/was-ist-efs-elastic-file-system-in-aws-und-wie-benutzt-man-es/)
 
+[Amazon EFS features](https://aws.amazon.com/efs/features/)
+
 [Are you a first-time user of Amazon EFS?](https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html#welcome-first-time-user)
 
 
@@ -39,8 +41,20 @@ After some searching on the internet and in the security tab it turned out that 
 
 ---
 
+## Exercise
+
+Learn and try to understand the Amazon Elastic File System (EFS).
+
 ## Overcome challanges
+
+What is MySQL?
 
 AWS interface is a bit overwhelming and daunting at first.
 
 Be ready for a ton of tech jargon that you are definitely not going to understand if you are new to this.
+
+I tried to use what I had learned so far as much as possible in order to achieve a satisfactory result.
+
+PS  Probably too late found explanation what MySQL is.
+
+[What is MySQL? All I probably need to know.](https://www.talend.com/resources/what-is-mysql/)
