@@ -179,14 +179,6 @@ I create a Database (DB) in my AWS Console (RDS--> Databases)
 ![Database2](../00_includes/AWS-13%20Files%2CApp%20Services%2CCDN%2CDNS%2CDatabase/Database2.PNG)
 ---
 
-
-
-
-
-
-
-
-
 [Subject]
 
 [Give a short summary of the subject matter.]
