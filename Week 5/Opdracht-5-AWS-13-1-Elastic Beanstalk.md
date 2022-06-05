@@ -54,3 +54,11 @@ Since Elastic Beanstalk is built on top of existing services like EC2, you can a
 Elastic Beanstalk is one of the most useful AWS services.
 
 If you're starting with Amazon Web Services like me, it's easier to get started than with, for example, EC2 or CloudFormation.
+
+---
+
+## Overcome challanges
+
+AWS interface is a bit overwhelming and daunting at first.
+
+Be ready for a ton of tech jargon that you are definitely not going to understand if you are new to this.

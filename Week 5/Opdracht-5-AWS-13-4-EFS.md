@@ -36,3 +36,11 @@ At my first login attempt on my newly created EC2 Instance, I was unable to acce
 After some searching on the internet and in the security tab it turned out that I had to change/adjust the Inbound rules.
 
 ![Terminal-1](../00_includes/AWS-13%20Files%2CApp%20Services%2CCDN%2CDNS%2CDatabase/Terminal1.PNG)
+
+---
+
+## Overcome challanges
+
+AWS interface is a bit overwhelming and daunting at first.
+
+Be ready for a ton of tech jargon that you are definitely not going to understand if you are new to this.

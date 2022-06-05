@@ -54,6 +54,10 @@ A software distribution service that lets me use applications without actually h
 
 When searching quickly and in too many sources, it is difficult to discern what is helpful information and what is not.
 
+AWS interface is a bit overwhelming and daunting at first.
+
+Be ready for a ton of tech jargon that you are definitely not going to understand if you are new to this.
+
 ---
 
 ## Results

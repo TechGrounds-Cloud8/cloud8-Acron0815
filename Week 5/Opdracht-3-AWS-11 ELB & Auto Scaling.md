@@ -215,3 +215,11 @@ E4
 ![Exc.4.5](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/1/4-5.PNG)
 
 ![Exc.4.6](../00_includes/AWS-11%20ELB%20%26%20Auto%20Scaling/1/4-6.PNG)
+
+---
+
+## Overcome challanges
+
+AWS interface is a bit overwhelming and daunting at first.
+
+Be ready for a ton of tech jargon that you are definitely not going to understand if you are new to this.

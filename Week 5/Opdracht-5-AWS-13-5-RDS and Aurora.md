@@ -33,4 +33,11 @@ I create a Database (DB) in my AWS Console (RDS--> Databases)
 ![Database1](../00_includes/AWS-13%20Files%2CApp%20Services%2CCDN%2CDNS%2CDatabase/Database1.PNG)
 
 ![Database2](../00_includes/AWS-13%20Files%2CApp%20Services%2CCDN%2CDNS%2CDatabase/Database2.PNG)
+
 ---
+
+## Overcome challanges
+
+AWS interface is a bit overwhelming and daunting at first.
+
+Be ready for a ton of tech jargon that you are definitely not going to understand if you are new to this.

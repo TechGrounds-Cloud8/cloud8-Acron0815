@@ -55,11 +55,17 @@ The usual ones like the internet, YouTube, Lynda tutorials, e-books, usenet and 
 
 [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/?wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc)
 
-
+---
 
 ### Overcome challanges
 
 Searching for current and relevant information.
+
+AWS interface is a bit overwhelming and daunting at first.
+
+Be ready for a ton of tech jargon that you are definitely not going to understand if you are new to this.
+
+---
 
 ### Results
 

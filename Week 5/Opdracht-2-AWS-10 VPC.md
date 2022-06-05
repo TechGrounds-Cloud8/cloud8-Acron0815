@@ -233,3 +233,13 @@ Exercise 4.3
 Exercise 4.4
 
 ![Exercise 4.4](../00_includes/AWS-10%20VPC/Exc.-4.4.PNG)
+
+---
+
+## Overcome challanges
+
+AWS interface is a bit overwhelming and daunting at first.
+
+Be ready for a ton of tech jargon that you are definitely not going to understand if you are new to this.
+
+---
