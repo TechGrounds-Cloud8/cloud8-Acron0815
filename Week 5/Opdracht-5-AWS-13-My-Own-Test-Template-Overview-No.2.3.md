@@ -177,7 +177,7 @@ I create a Database (DB) in my AWS Console (RDS--> Databases)
 ![Database1](../00_includes/AWS-13%20Files%2CApp%20Services%2CCDN%2CDNS%2CDatabase/Database1.PNG)
 
 ![Database2](../00_includes/AWS-13%20Files%2CApp%20Services%2CCDN%2CDNS%2CDatabase/Database2.PNG)
----
+
 
 [Subject]
 
