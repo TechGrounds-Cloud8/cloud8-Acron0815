@@ -49,7 +49,7 @@ Since Elastic Beanstalk is built on top of existing services like EC2, you can a
 
 [Amazon AWS Document - AWS Elastic Beanstalk FAQs](https://aws.amazon.com/elasticbeanstalk/faqs/)
 
-## Results
+## Summary
 
 Elastic Beanstalk is one of the most useful AWS services.
 
