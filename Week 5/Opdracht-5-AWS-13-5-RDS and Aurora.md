@@ -10,13 +10,23 @@ Amazon RDS is a managed relational database service capable of taking the stress
 
 -Relational databases provide stability and reliability for transactional databases.
 
+## Source
+
+[What is Amazon Relational Database Service (Amazon RDS)?](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html)
+
 # Amazon Aurora
 
-Aurora is a MySQL and PostgreSQL managed compatible relational database engine. You can use existing MySQL and PostgreSQL databases with Aurora. However, Aurora can have up to five times the throughput of MySQL.
+Amazon Aurora is a relational database management system (RDBMS) built for the cloud with full MySQL and PostgreSQL compatibility.
+
+Aurora is therefore a MySQL and PostgreSQL managed compatible relational database engine. You can use existing MySQL and PostgreSQL databases with Aurora. However, Aurora can have up to five times the throughput of MySQL.
 
 The fundamental building block of Amazon RDS is called the “DB instance.” A DB instance is a database environment in the cloud, and it can contain multiple databases. Each DB instance runs a DB engine, and with Amazon RDS, you can choose between various DB engines, including Aurora.
 You can access RDS and Aurora through Amazon Web Services (AWS), but they have slightly different intended uses. Essentially, the AWS Aurora database is a custom engine for Amazon RDS and is optimized for performance in the cloud.
 Aurora is compatible with MySQL and PostgreSQL, and it’s intended to combine the availability and performance of traditional database engines with the cost-effectiveness and straightforwardness of open source. RDS can be used with various engines, while Aurora is a special engine developed for use with RDS.
+
+## Source
+
+[What is Amazon Aurora?](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html)
 
 - ### Amazon Aurora vs. Amazon Relational Database Service (RDS)
 
@@ -36,8 +46,14 @@ I create a Database (DB) in my AWS Console (RDS--> Databases)
 
 ---
 
+## Exercise 2
+
+Amazon Relational Database Service (RDS) and also Amazon Aurora to learn and try to understand.
+
 ## Overcome challanges
 
 AWS interface is a bit overwhelming and daunting at first.
 
 Be ready for a ton of tech jargon that you are definitely not going to understand if you are new to this.
+
+I tried to use what I had learned so far as much as possible in order to achieve a satisfactory result.
