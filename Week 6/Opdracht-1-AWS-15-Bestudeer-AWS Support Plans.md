@@ -43,6 +43,8 @@ Clients using this tier gain access to extra features, including:
 
 - Enterprise On-Ramp
 
+[AWS Support Plans](https://aws.amazon.com/premiumsupport/plans/)
+
 - Enterprise
 
 For organizations that run mission-critical workloads, it is critical to use the Enterprise Support plan. The Enterprise tier involves everything from the previous plans. Also, it provides a 15-minute response time for critical workloads. 
