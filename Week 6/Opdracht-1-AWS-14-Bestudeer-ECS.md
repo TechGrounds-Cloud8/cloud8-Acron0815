@@ -12,6 +12,8 @@ Amazon ECS is a fully managed container orchestration service that makes it easy
  
  For further customization, Amazon ECS also supports Elastic Load Balancing, Elastic Block Store, and IAM (Identity and Access Management).
 
+ ![ECS](../00_includes/AWS-Week-6/ECS-1.PNG)
+
  ### Advantages of EFS
 
  The biggest advantage of the ECS is the fact that it is free. Anyone who pays for certain AWS resources can use the service free of charge. Users who work with the ECS also benefit from these additional advantages:
@@ -113,3 +115,17 @@ Containers can be easily updated to the newest versions. Whenever a new version 
 ### Container auto-recovery
 
 Unhealthy containers are automatically recovered by the Amazon ECS service scheduler. This ensures the necessary number of containers are constantly supporting the application.
+
+## Sources
+
+[What is Amazon Elastic Container Service?](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html)
+
+[Amazon Elastic Container Service (Amazon ECS)](https://aws.amazon.com/ecs/)
+
+[Amazon ECS](https://digitalcloud.training/amazon-ecs-and-eks/)
+
+[What is AWS ECS?](https://cloud.netapp.com/blog/aws-cvo-blg-aws-ecs-in-depth-architecture-and-deployment-options)
+
+## Overcome challanges
+
+Be ready for a ton of tech jargon that you are definitely not going to understand if you are new to this.
