@@ -42,7 +42,7 @@ There is insufficient documentation of what is happening in the ECS (see sources
 
 This can become a problem, especially in the case of unexpected events. 
 
-Building a seamless connection between an ECR system and the ECS is also difficult - especially beginners like me can have problems.
+I think building a seamless connection between an ECR system and the ECS is also difficult - especially beginners like me can have problems.
 
 ## Key terminology
 
