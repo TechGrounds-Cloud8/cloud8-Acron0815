@@ -1,0 +1,1 @@
+# Soft skill Presentatie - Wat zijn pitfalls en goede vragen om jezelf te stellen?
